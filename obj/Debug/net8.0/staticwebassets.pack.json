@@ -1,0 +1,377 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DACS-DAMH.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DACS-DAMH.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\1636647328_arme-nong_3c118e3822444aadb7f0e1a162d5264a_large.jpg",
+      "PackagePath": "staticwebassets\\images\\1636647328_arme-nong_3c118e3822444aadb7f0e1a162d5264a_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\1638440015_banh-mi-vietnam_c2c0df621edd437eb2bdebadea88e48b_large.jpg",
+      "PackagePath": "staticwebassets\\images\\1638440015_banh-mi-vietnam_c2c0df621edd437eb2bdebadea88e48b_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\1639377797_ca-phe-den-da_6f4766ec0f8b4e929a8d916ae3c13254_large.jpg",
+      "PackagePath": "staticwebassets\\images\\1639377797_ca-phe-den-da_6f4766ec0f8b4e929a8d916ae3c13254_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\1669736819_tra-dao-cam-sa-da_63defc32ce214da487850604a63ff281_large.jpg",
+      "PackagePath": "staticwebassets\\images\\1669736819_tra-dao-cam-sa-da_63defc32ce214da487850604a63ff281_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\1669736835_ca-phe-sua-da_e6168b6a38ec45d2b4854d2708b5d542_large.jpg",
+      "PackagePath": "staticwebassets\\images\\1669736835_ca-phe-sua-da_e6168b6a38ec45d2b4854d2708b5d542_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\1669736893_hi-tea-vai_48ab19bd1e764a36a7361f5a0cd9561a_large.jpg",
+      "PackagePath": "staticwebassets\\images\\1669736893_hi-tea-vai_48ab19bd1e764a36a7361f5a0cd9561a_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\1686716517_kombucha-dao_d95ee0f4a787473997ef8c9031e64154_large.jpg",
+      "PackagePath": "staticwebassets\\images\\1686716517_kombucha-dao_d95ee0f4a787473997ef8c9031e64154_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\1697442235_cloudfee-hanh-nhan-nuong_52548ef041bb41148e3bbb5ceba2d540_large.jpg",
+      "PackagePath": "staticwebassets\\images\\1697442235_cloudfee-hanh-nhan-nuong_52548ef041bb41148e3bbb5ceba2d540_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\1700837665_tra-sua-tra-xanh-tay-bac-ly-thuy-tinh_581d298d22a54bf7bd69cef48307131c_large.jpg",
+      "PackagePath": "staticwebassets\\images\\1700837665_tra-sua-tra-xanh-tay-bac-ly-thuy-tinh_581d298d22a54bf7bd69cef48307131c_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\cappuccino_621532_f42ec557eda145b5958374ca67e65ff2_large (1).jpg",
+      "PackagePath": "staticwebassets\\images\\cappuccino_621532_f42ec557eda145b5958374ca67e65ff2_large (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\cappuccino_621532_f42ec557eda145b5958374ca67e65ff2_large.webp",
+      "PackagePath": "staticwebassets\\images\\cappuccino_621532_f42ec557eda145b5958374ca67e65ff2_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\capu-da_487470_e06d3835cbc84e51bd635b04d541494e_large.jpg",
+      "PackagePath": "staticwebassets\\images\\capu-da_487470_e06d3835cbc84e51bd635b04d541494e_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\caramel-macchiato_143623_0e070a39d0e54e808db4d91049430b51_large.jpg",
+      "PackagePath": "staticwebassets\\images\\caramel-macchiato_143623_0e070a39d0e54e808db4d91049430b51_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\caramelmacchiatonong_168039_9a4c155f15294771b9c300b0230c6a88_large.jpg",
+      "PackagePath": "staticwebassets\\images\\caramelmacchiatonong_168039_9a4c155f15294771b9c300b0230c6a88_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\cfdenda-espressoda_185438_1515261ef60b482eb58e1c545e7410a3_large.jpg",
+      "PackagePath": "staticwebassets\\images\\cfdenda-espressoda_185438_1515261ef60b482eb58e1c545e7410a3_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\classic-cold-brew_791256_d4d8388a3d724f879845680c0239ff68_large.jpg",
+      "PackagePath": "staticwebassets\\images\\classic-cold-brew_791256_d4d8388a3d724f879845680c0239ff68_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\espressonong_612688_41d0812d5efb47aaaebaea91a3b206db_large.jpg",
+      "PackagePath": "staticwebassets\\images\\espressonong_612688_41d0812d5efb47aaaebaea91a3b206db_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\latte-da_438410_ff2be8d76067434385f8e27b33fed780_large.jpg",
+      "PackagePath": "staticwebassets\\images\\latte-da_438410_ff2be8d76067434385f8e27b33fed780_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\latte_851143_377d5e11c1e145a8bf5f82a64047e60d_large.jpg",
+      "PackagePath": "staticwebassets\\images\\latte_851143_377d5e11c1e145a8bf5f82a64047e60d_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\tra-den-matchiato_430281_5d57903f55e745d4b547adbfe75b4e8d_large.jpg",
+      "PackagePath": "staticwebassets\\images\\tra-den-matchiato_430281_5d57903f55e745d4b547adbfe75b4e8d_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\images\\tra-sua-mac-ca_377522_0d1bb30f7b184aa0885ce073fb8aab18_large.jpg",
+      "PackagePath": "staticwebassets\\images\\tra-sua-mac-ca_377522_0d1bb30f7b184aa0885ce073fb8aab18_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\multiple-select\\multiple-select.css",
+      "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\multiple-select\\multiple-select.js",
+      "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\multiple-select\\multiple-select.min.css",
+      "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\multiple-select\\multiple-select.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\multiple-select\\multiple-select.min.js",
+      "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\multiple-select\\multiple-select.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\lib\\multiple-select\\multiple-select.png",
+      "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DACS-DAMH.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DACS-DAMH.props",
+      "PackagePath": "build\\DACS-DAMH.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DACS-DAMH.props",
+      "PackagePath": "buildMultiTargeting\\DACS-DAMH.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DACS-DAMH.props",
+      "PackagePath": "buildTransitive\\DACS-DAMH.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

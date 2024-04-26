@@ -1,0 +1,21 @@
+﻿
+@model DACS_DAMH.Models.Product;
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Name</h2>
+<div class="row product-details">
+    <div class="col-md-6 product-image">
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" alt="Product Image" class="img-fluid" />
+        }
+    </div>
+    <div class="col-md-6 product-info">
+        <h3>Price: @Model.Price.ToString("C", new CultureInfo("vi-VN"))</h3>  <p>@Model.Description</p>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+

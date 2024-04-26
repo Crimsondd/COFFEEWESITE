@@ -1,0 +1,86 @@
+﻿@model ShoppingCart
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<link href="~/css/shopingcart.css" rel="stylesheet" />
+<h2>Your Cart</h2>
+<div class="row">
+    <div class="medium-4 columns">
+        <div class="cart">
+            <h1>Cart items</h1>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Items)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>
+                                <form asp-controller="ShoppingCart" asp-action="UpdateQuantity" method="post">
+                                    <input type="hidden" name="productId" value="@item.ProductId" />
+                                    <input type="number" id="autoUpdateInput" name="newQuantity" value="@item.Quantity" min="1" />
+                                </form>
+                            </td>
+                            <td>@item.Price.ToString("C", new CultureInfo("vi-VN")) </td>
+                            <td>@(item.Price * item.Quantity)</td>
+                            <td>
+                                <a asp-action="RemoveFromCart" asp-route-productId="@item.ProductId" class="btn btn-sm btn-danger">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <h1 style="color:red">Total Price : @Model.TotalPrice.ToString("C", new CultureInfo("vi-VN"))</h1>
+            </br>
+            @TempData["voucher"]
+            <form asp-action="VerifyVoucher" asp-controller="ShoppingCart" method="post">
+                <input type="text" name=voucherCode />
+                <input type="hidden" name=totalMOMO value="@Model.TotalPrice" />
+                <input type="submit" value="Áp Dụng Voucher" placeholder="XXXXXXX" />
+                
+            </form>
+            <h1 style="color:red">Final Price : @TempData["Totalprice"]</h1>
+        </div>
+    </div>
+</div>
+<script src="~/js/site.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js'></script>
+
+
+@*Thêm nút đặt hàng*@
+
+<div class="button" style="display: flex">
+
+    
+
+    <form asp-controller="Home" asp-action="Index" style="padding: 10px">
+        <button type="buy" class="btn btn-lg btn-outline-dark">Tiếp tục mua hàng</button>
+    </form>
+
+    <form asp-action="RemoveAllFromCart" style="padding: 10px">
+        <button type="clear" class="btn btn-lg btn-outline-dark">Clear</button>
+    </form>
+    
+    <form id="myForm" method="post" style="padding: 10px" action="@Url.Action("Payment", "MomoPayment")">
+        <input type="hidden" id="totalMOMO" name="totalMOMO" value="@TempData["Totalprice"]" />
+        <button class="btn btn-lg btn-outline-dark" type="submit">THANH TOÁN MOMO</button>
+    </form>
+
+    <form asp-action="Checkout" method="get" style="padding: 10px">
+        <button type="submit" class="btn btn-lg btn-outline-dark">THANH TOÁN COD</button>
+    </form>
+</div>
+
+

@@ -1,0 +1,53 @@
+﻿@page "/Admin/Role/"
+@using DACS_DAMH.Areas.Admin.Pages.Role
+
+@model IndexModel
+
+<div class="container-fluid text-center text-white p-3 rounded">
+    <h2>Roles</h2>
+</div>
+<partial name="_StatusMessage" model="@Model.StatusMessage" />
+<form method="POST" class="my-1 d-inline">
+    <button class="btn btn-secondary" asp-page="./Add"
+            asp-page-handler="StartNewRole">
+        Thêm mới Role
+    </button>
+</form>
+<a class="btn btn-secondary" asp-page="./User">Gán role cho người dùng</a>
+
+<table class="table">
+    <tr>
+        <th>Role ID</th>
+        <th>Tên</th>
+        <th>Tác vụ</th>
+    </tr>
+    @foreach (var role in @Model.roles)
+    {
+        <tr>
+            <td>@role.Id</td>
+            <td>
+                @role.Name
+            </td>
+            <td>
+                <form method="POST" class="d-inline">
+                    <button name="Input.ID" value="@role.Id" class="btn btn-success btn-sm"
+                            asp-page="./Add" asp-page-handler="StartUpdate">
+                        Cập nhật Role
+                    </button>
+                </form>
+                @* <form method="POST" class="d-inline">
+                    <button name="Input.ID" value="@role.Id" class="btn btn-success btn-sm"
+                            asp-area="Admin" asp-page="/RoleClaims/Index">
+                        Claims
+                    </button>
+                </form> *@
+                <form method="POST" class="d-inline">
+                    <button name="Input.ID" value="@role.Id" class="btn btn-success btn-sm"
+                            asp-page="./Delete">
+                        Xóa Role
+                    </button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>

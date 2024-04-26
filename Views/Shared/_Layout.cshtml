@@ -1,0 +1,399 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <title>COFFEE RACER</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="header-meta-list">
+                        <div>
+                            <a href="/">
+                                <img src="https://file.hstatic.net/1000075078/file/vector_706a88566eab4f009bed6eea93cd890b.png">
+                                <span>200 Cửa hàng khắp cả nước</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="/">
+                                <img src="https://file.hstatic.net/1000075078/file/group_8de276faa50c486b9d485826c506803b.png">
+                                <span>Đặt hàng: 1999.9999</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="header_nav">
+                <div class="header_logo">
+                    <h1>
+                        <a class="logo-name" href="/" title="The Coffee Racer">The Coffee Racer</a>
+                    </h1>
+                </div>
+
+                <div class="header_menu">
+                    <div class="close-btn-wrap">
+                        <a href="" class="closemenu-mobile">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.00023 5.58599L11.9502 0.635986L13.3642 2.04999L8.41423 6.99999L13.3642 11.95L11.9502 13.364L7.00023 8.41399L2.05023 13.364L0.63623 11.95L5.58623 6.99999L0.63623 2.04999L2.05023 0.635986L7.00023 5.58599Z" fill="black" fill-opacity="0.85"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <ul class="clearfix">
+                        <li>
+                            <a asp-area="" asp-controller="Product" asp-action="NavMenu" asp-route-categoryName="Cafe" title="Cà phê">Cà phê</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-controller="Product" asp-action="NavMenu" asp-route-categoryName="Trà" title="Trà">Trà</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Menu">Menu</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Chuyện Nhà">Chuyện Nhà</a>
+                        </li>
+                    </ul>
+                </div>
+                @*nhúng Icon giỏ hàng vào giao diện*@
+
+                <div class="header_user d-flex">
+                    <div class="right" style="display: flex !important;align-items: center;">
+                        <partial name="_LoginPartial" />
+
+                        <form style="padding-right :10px">
+                            <button class="btn btn-outline-danger" type="submit" asp-controller="ShoppingCart" asp-action="Index">
+                                <i class="bi-cart-fill me-1">Cart</i>
+                                <span class="badge bg-danger text-white" id="badge-cart">0</span>
+
+                            </button>
+                        </form>
+
+                        <form>
+                            <button class="btn btn-outline-danger" type="submit" asp-controller="ShoppingCart" asp-action="OrderHistory">
+                                <i class="bi-cart-fill me-1"></i>
+                                Lịch sử đơn hàng
+                            </button>
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="row">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://file.hstatic.net/1000075078/file/web_desktop_1046f53e0b804a159ed93e6cc0548263.jpg" alt="Los Angeles" class="d-block" style="width:100%; height:600px">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://file.hstatic.net/1000075078/file/web_moi_-_desktop_f6262a8c178b4bada6b90a9a4a845ee4.jpg" alt="Chicago" class="d-block" style="width:100%; height:600px">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container" style="padding : 25px">
+        <div class="row">
+            <div class="clearfix">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <section class="blog_home">
+        <div class="container">
+            <div class="clearfix"></div>
+            <h2 class="blog_home_title">
+                <img src="https://file.hstatic.net/1000075078/file/coffee-2_2_92db24958ff14ac4b4249b3256f7a415.png">
+                Chuyện Nhà
+            </h2>
+
+            <h3 class="blog_home_blogtitle">
+                <a href="/blogs/coffeeholic">
+                    Coffeeholic
+                </a>
+            </h3>
+            <div class="blog_lists flex_wrap display_flex">
+                <div class="blog_item flex_direction_column display_flex">
+                    <a class="article_item_image" href="/blogs/coffeeholic/bat-gap-sai-gon-xua-trong-mon-uong-hien-dai-cua-gioi-tre" title="BẮT GẶP SÀI GÒN XƯA TRONG MÓN UỐNG HIỆN ĐẠI CỦA GIỚI TRẺ">
+                        <div class="article_img lazyloaded" data-bg="//file.hstatic.net/1000075078/article/thecoffeehouse_caphehighlight01_de40c0102a954c50a328f7befcdd82bd_grande.jpg" style="background-image: url(&quot;//file.hstatic.net/1000075078/article/thecoffeehouse_caphehighlight01_de40c0102a954c50a328f7befcdd82bd_grande.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                        </div>
+                    </a>
+                    <div class="article_item_info">
+                        <div class="article_published_at"><span>01/11/2023</span></div>
+                        <h3><a href="/blogs/coffeeholic/bat-gap-sai-gon-xua-trong-mon-uong-hien-dai-cua-gioi-tre" title="BẮT GẶP SÀI GÒN XƯA TRONG MÓN UỐNG HIỆN ĐẠI CỦA GIỚI TRẺ">BẮT GẶP SÀI GÒN XƯA TRONG MÓN UỐNG HIỆN ĐẠI CỦA GIỚI TRẺ</a></h3>
+                        <p>Dẫu qua bao nhiêu lớp sóng thời gian, người ta vẫn có thể tìm lại những dấu ấn thăng trầm của một Sài Gòn xưa cũ. Trên những góc phố,...</p>
+
+                    </div>
+                </div>
+                <div class="blog_item flex_direction_column display_flex">
+                    <a class="article_item_image" href="/blogs/coffeeholic/chi-chon-ca-phe-moi-sang-nhung-cung-khien-cuoc-song-cua-ban-them-thu-v" title="CHỈ CHỌN CÀ PHÊ MỖI SÁNG NHƯNG CŨNG KHIẾN CUỘC SỐNG CỦA BẠN THÊM THÚ VỊ, TẠI SAO KHÔNG?">
+                        <div class="article_img lazyloaded" data-bg="//file.hstatic.net/1000075078/article/1200x630_0b0081d93ba6479b934e04e71cbfd102_grande.jpg" style="background-image: url(&quot;//file.hstatic.net/1000075078/article/1200x630_0b0081d93ba6479b934e04e71cbfd102_grande.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                        </div>
+                    </a>
+                    <div class="article_item_info">
+                        <div class="article_published_at"><span>30/10/2023</span></div>
+                        <h3><a href="/blogs/coffeeholic/chi-chon-ca-phe-moi-sang-nhung-cung-khien-cuoc-song-cua-ban-them-thu-v" title="CHỈ CHỌN CÀ PHÊ MỖI SÁNG NHƯNG CŨNG KHIẾN CUỘC SỐNG CỦA BẠN THÊM THÚ VỊ, TẠI SAO KHÔNG?">CHỈ CHỌN CÀ PHÊ MỖI SÁNG NHƯNG CŨNG KHIẾN CUỘC SỐNG CỦA BẠN THÊM THÚ VỊ, TẠI SAO KHÔNG?</a></h3>
+                        <p>Thực chất, bạn không nhất thiết phải làm gì to tát để tạo nên một ngày rực rỡ. Chỉ cần bắt đầu từ những việc nhỏ nhặt nhất, khi bạn...</p>
+
+                    </div>
+                </div>
+                <div class="blog_item flex_direction_column display_flex">
+                    <a class="article_item_image" href="/blogs/coffeeholic/signature-the-coffee-house-da-quay-tro-lai" title="SIGNATURE - BIỂU TƯỢNG VĂN HOÁ CÀ PHÊ CỦA THE COFFEE HOUSE ĐÃ QUAY TRỞ LẠI">
+                        <div class="article_img lazyloaded" data-bg="//file.hstatic.net/1000075078/article/3__1__2b67342f4db64bb082944cf078afd910_grande.jpg" style="background-image: url(&quot;//file.hstatic.net/1000075078/article/3__1__2b67342f4db64bb082944cf078afd910_grande.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                        </div>
+                    </a>
+                    <div class="article_item_info">
+                        <div class="article_published_at"><span>12/02/2023</span></div>
+                        <h3><a href="/blogs/coffeeholic/signature-the-coffee-house-da-quay-tro-lai" title="SIGNATURE - BIỂU TƯỢNG VĂN HOÁ CÀ PHÊ CỦA THE COFFEE HOUSE ĐÃ QUAY TRỞ LẠI">SIGNATURE - BIỂU TƯỢNG VĂN HOÁ CÀ PHÊ CỦA THE COFFEE HOUSE ĐÃ QUAY TRỞ LẠI</a></h3>
+                        <p>Mới đây, các "tín đồ" cà phê đang bàn tán xôn xao về SIGNATURE - Biểu tượng văn hóa cà phê của The Coffee House đã quay trở lại.Một lời...</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="blog_home_blogtitle">
+                <a href="/blogs/teaholic">
+                    Teaholic
+                </a>
+            </h3>
+            <div class="blog_lists flex_wrap display_flex">
+                <div class="blog_item flex_direction_column display_flex">
+                    <a class="article_item_image" href="/blogs/teaholic/trung-thu-nay-sao-ban-khong-tu-cho-minh-dung-mot-chut-thoi-thuong-m" title="TRUNG THU NÀY, SAO BẠN KHÔNG TỰ CHO MÌNH " dỪng="" mỘt="" chÚt="" thÔi,="" thƯỞng="" trÔi"?"="">
+                        <div class="article_img lazyloaded" data-bg="//file.hstatic.net/1000075078/article/an_banh_uong_nuoc_nhom_03_d499c0cab14746588fff6fe0dee678ad_grande.jpg" style="background-image: url(&quot;//file.hstatic.net/1000075078/article/an_banh_uong_nuoc_nhom_03_d499c0cab14746588fff6fe0dee678ad_grande.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                        </div>
+                    </a>
+                    <div class="article_item_info">
+                        <div class="article_published_at"><span>19/09/2023</span></div>
+                        <h3><a href="/blogs/teaholic/trung-thu-nay-sao-ban-khong-tu-cho-minh-dung-mot-chut-thoi-thuong-m" title="TRUNG THU NÀY, SAO BẠN KHÔNG TỰ CHO MÌNH " dỪng="" mỘt="" chÚt="" thÔi,="" thƯỞng="" trÔi"?"="">TRUNG THU NÀY, SAO BẠN KHÔNG TỰ CHO MÌNH "DỪNG MỘT CHÚT THÔI, THƯỞNG MỘT CHÚT TRÔI"?</a></h3>
+                        <p>Bạn có từng nghe: “Trung thu thôi mà, có gì đâu mà chơi”, hay “Trung thu càng ngày càng chán”...? Sự bận rộn đến mức “điên rồ” đã khiến chúng...</p>
+
+                    </div>
+                </div>
+                <div class="blog_item flex_direction_column display_flex">
+                    <a class="article_item_image" href="/blogs/teaholic/bo-suu-tap-cau-toan-keo-thom-via-may-man-khong-the-bo-lo-tet-nay" title="BỘ SƯU TẬP CẦU TOÀN KÈO THƠM: " vÍa"="" may="" mẮn="" khÔng="" thỂ="" bỎ="" lỠ="" tẾt="" nÀy"="">
+                        <div class="article_img lazyloaded" data-bg="//file.hstatic.net/1000075078/article/cautoankeothom_thecoffeehouse_03_29cd435c9a574e1a867ac36f2c863bb6_grande.jpg" style="background-image: url(&quot;//file.hstatic.net/1000075078/article/cautoankeothom_thecoffeehouse_03_29cd435c9a574e1a867ac36f2c863bb6_grande.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                        </div>
+                    </a>
+                    <div class="article_item_info">
+                        <div class="article_published_at"><span>16/01/2023</span></div>
+                        <h3><a href="/blogs/teaholic/bo-suu-tap-cau-toan-keo-thom-via-may-man-khong-the-bo-lo-tet-nay" title="BỘ SƯU TẬP CẦU TOÀN KÈO THƠM: " vÍa"="" may="" mẮn="" khÔng="" thỂ="" bỎ="" lỠ="" tẾt="" nÀy"="">BỘ SƯU TẬP CẦU TOÀN KÈO THƠM: "VÍA" MAY MẮN KHÔNG THỂ BỎ LỠ TẾT NÀY</a></h3>
+                        <p>Tết nay vẫn giống Tết xưa, không hề mai một nét văn hoá truyền thống mà còn thêm vào những hoạt động “xin vía” hiện đại, trẻ trung. Ví như...</p>
+
+                    </div>
+                </div>
+                <div class="blog_item flex_direction_column display_flex">
+                    <a class="article_item_image" href="/blogs/teaholic/khuay-de-thay-trang-trung-thu-nay" title="“KHUẤY ĐỂ THẤY TRĂNG" -="" khuẤy="" lÊn="" niỀm="" hẠnh="" phÚc:="" trẢi="" nghiỆm="" khÔng="" thỂ="" bỎ="" lỠ="" mÙa="" trung="" thu="" nÀy"="">
+                        <div class="article_img lazyloaded" data-bg="//file.hstatic.net/1000075078/article/dscf0216_2890bcca44ae49aaaf843d5fa3db2fc6_grande.jpg" style="background-image: url(&quot;//file.hstatic.net/1000075078/article/dscf0216_2890bcca44ae49aaaf843d5fa3db2fc6_grande.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                        </div>
+                    </a>
+                    <div class="article_item_info">
+                        <div class="article_published_at"><span>16/08/2022</span></div>
+                        <h3><a href="/blogs/teaholic/khuay-de-thay-trang-trung-thu-nay" title="“KHUẤY ĐỂ THẤY TRĂNG" -="" khuẤy="" lÊn="" niỀm="" hẠnh="" phÚc:="" trẢi="" nghiỆm="" khÔng="" thỂ="" bỎ="" lỠ="" mÙa="" trung="" thu="" nÀy"="">“KHUẤY ĐỂ THẤY TRĂNG" - KHUẤY LÊN NIỀM HẠNH PHÚC: TRẢI NGHIỆM KHÔNG THỂ BỎ LỠ MÙA TRUNG THU NÀY</a></h3>
+                        <p>Năm 2022 là năm đề cao sức khỏe tinh thần nên giới trẻ muốn tận hưởng một Trung thu với nhiều trải nghiệm mới mẻ, rôm rả cùng bạn bè...</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="blog_home_blogtitle">
+                <a href="/blogs/blog">
+                    Blog
+                </a>
+            </h3>
+            <div class="blog_lists flex_wrap display_flex">
+                <div class="blog_item flex_direction_column display_flex">
+                    <a class="article_item_image" href="/blogs/blog/xuan-len-di-loi-chuc-y-nghia-cho-nam-thin-dieu-chi-cung-nhu-y" title="“XUÂN LÊN ĐI!”: LỜI CHÚC Ý NGHĨA CHO NĂM THÌN ĐIỀU CHI CŨNG NHƯ Ý">
+                        <div class="article_img lazyloaded" data-bg="//file.hstatic.net/1000075078/article/zalo_01c6f0bfb0854951a16a92b52457ca56_grande.jpg" style="background-image: url(&quot;//file.hstatic.net/1000075078/article/zalo_01c6f0bfb0854951a16a92b52457ca56_grande.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                        </div>
+                    </a>
+                    <div class="article_item_info">
+                        <div class="article_published_at"><span>23/02/2024</span></div>
+                        <h3><a href="/blogs/blog/xuan-len-di-loi-chuc-y-nghia-cho-nam-thin-dieu-chi-cung-nhu-y" title="“XUÂN LÊN ĐI!”: LỜI CHÚC Ý NGHĨA CHO NĂM THÌN ĐIỀU CHI CŨNG NHƯ Ý">“XUÂN LÊN ĐI!”: LỜI CHÚC Ý NGHĨA CHO NĂM THÌN ĐIỀU CHI CŨNG NHƯ Ý</a></h3>
+                        <p>Mùa xuân đã rộn ràng khắp nơi, mang theo nguồn sống dào dạt cùng mọi ước nguyện may mắn. Bạn cầu mong gì cho mình và người thân trong những...</p>
+
+                    </div>
+                </div>
+                <div class="blog_item flex_direction_column display_flex">
+                    <a class="article_item_image" href="/blogs/blog/the-coffee-house-tu-hao-mang-ly-ca-phe-sua-da-viet-nam-den-quang-truon" title="LY CÀ PHÊ SỮA ĐÁ VIỆT NAM XUẤT HIỆN Ở QUẢNG TRƯỜNG THỜI ĐẠI NEW YORK">
+                        <div class="article_img lazyloaded" data-bg="//file.hstatic.net/1000075078/article/thecoffeehouse_timesquare_02_b87f7576b02d4d82ba5b7ed4e40b6b00_grande.png" style="background-image: url(&quot;//file.hstatic.net/1000075078/article/thecoffeehouse_timesquare_02_b87f7576b02d4d82ba5b7ed4e40b6b00_grande.png&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                        </div>
+                    </a>
+                    <div class="article_item_info">
+                        <div class="article_published_at"><span>21/11/2023</span></div>
+                        <h3><a href="/blogs/blog/the-coffee-house-tu-hao-mang-ly-ca-phe-sua-da-viet-nam-den-quang-truon" title="LY CÀ PHÊ SỮA ĐÁ VIỆT NAM XUẤT HIỆN Ở QUẢNG TRƯỜNG THỜI ĐẠI NEW YORK">LY CÀ PHÊ SỮA ĐÁ VIỆT NAM XUẤT HIỆN Ở QUẢNG TRƯỜNG THỜI ĐẠI NEW YORK</a></h3>
+                        <p>Ấn tượng và tự hào, hình ảnh Việt Nam tiếp tục được lên sóng tại Quảng trường Thời Đại (New York) với ly cà phê sữa đá quen thuộc, đi...</p>
+
+                    </div>
+                </div>
+                <div class="blog_item flex_direction_column display_flex">
+                    <a class="article_item_image" href="/blogs/blog/nguoc-len-tay-bac-goi-vi-moc-ve-xuoi" title="NGƯỢC LÊN TÂY BẮC GÓI VỊ MỘC VỀ XUÔI">
+                        <div class="article_img lazyloaded" data-bg="//file.hstatic.net/1000075078/article/thecoffeehouse_traxanhtaybac_1_d8c2ac635c5941a19c0065339727e41a_grande.jpg" style="background-image: url(&quot;//file.hstatic.net/1000075078/article/thecoffeehouse_traxanhtaybac_1_d8c2ac635c5941a19c0065339727e41a_grande.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                        </div>
+                    </a>
+                    <div class="article_item_info">
+                        <div class="article_published_at"><span>16/08/2023</span></div>
+                        <h3><a href="/blogs/blog/nguoc-len-tay-bac-goi-vi-moc-ve-xuoi" title="NGƯỢC LÊN TÂY BẮC GÓI VỊ MỘC VỀ XUÔI">NGƯỢC LÊN TÂY BẮC GÓI VỊ MỘC VỀ XUÔI</a></h3>
+                        <p>Những dải ruộng bậc thang, các cô gái Thái với điệu múa xòe hoa, muôn cung đường ngợp mùa hoa… đó là rẻo cao Tây Bắc luôn làm say lòng...</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <footer id="footer" style="padding-top:25px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 col-lg-push-6 col-md-push-6 footer_col">
+                    <div class="hotline_footer">
+                        <p><img src="https://file.hstatic.net/1000075078/file/phone_0a42df1c753c4fa0910108daa73fe2ef.png">Đặt hàng: 1999.9999</p><p><img src="https://file.hstatic.net/1000075078/file/map-pin-2-line_575ccb91b6f94a308d1bd507d4ae72a7.png">Liên hệ</p>
+                    </div>
+                    <div class="address_footer">
+                        <p>Tầng 3-4 Hub Building <br> 195/10E Điện Biên Phủ, P.15,<br> Q.Bình Thạnh, TP.Hồ Chí Minh</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 col-lg-push-6 col-md-push-6 footer_col footer_right">
+                    <div class="tch_page">
+                        <div class="fb-page fb_iframe_widget" data-href="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=363772567412181&amp;container_width=270&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FThe.Coffee.House.2014%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false">
+                            <span style="vertical-align: bottom; width: 270px; height: 130px;">
+                                <iframe name="f4f07bf0c24898fa8" width="1000px" height="1000px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src=";app_id=363772567412181&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfffb3160debb4fc8e%26domain%3Dthecoffeehouse.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fthecoffeehouse.com%252Ffa2bbe108ebc71ac8%26relation%3Dparent.parent&amp;container_width=270&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FThe.Coffee.House.2014%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 270px; height: 130px;" class="">
+                                </iframe>
+                            </span>
+                        </div>
+                    </div>
+
+                    <ul class="tch_social_links">
+                        <li>
+                            <a href="https://www.facebook.com/The.Coffee.House.2014/">
+                                <img src="https://file.hstatic.net/1000075078/file/test_fd4e30831d14438f9d0f1fcf255dfadb.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/thecoffeehousevn/">
+                                <img src="https://file.hstatic.net/1000075078/file/test_db37bb3840ac45f3a0a3cf7aa8a57d9e.svg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-lg-pull-6 col-md-pull-6 footer_col">
+                    <h3 class="footer_title">Giới thiệu</h3>                <ul class="footer_linklists">
+                        <li><a href="/pages/chuyen-ca-phe-va-tra" title="Về Chúng Tôi">Về Chúng Tôi</a></li>
+                        <li><a href="/" title="Sản phẩm">Sản phẩm</a></li>
+                        <li><a href="/" title="Khuyến mãi">Khuyến mãi</a></li>
+                        <li><a href="/pages/hat-ca-phe-the-coffee-house" title="Chuyện cà phê">Chuyện cà phê</a></li>
+                        <li><a href="/pages/our-stores" title="Cửa Hàng">Cửa Hàng</a></li>
+                        <li><a href="http://tuyendung.thecoffeehouse.com/" title="Tuyển dụng">Tuyển dụng</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-lg-pull-6 col-md-pull-6 footer_col">
+                    <h3 class="footer_title">Điều khoản</h3>                <ul class="footer_linklists">
+                        <li><a href="/pages/dieu-khoan-su-dung" title="Điều khoản sử dụng">Điều khoản sử dụng</a></li>
+                        <li><a href="/pages/chinh-sach-bao-mat-thong-tin" title="Chính sách bảo mật thông tin">Chính sách bảo mật thông tin</a></li>
+                        <li><a href="/pages/huong-dan-xuat-hoa-don-gtgt" title="Hướng dẫn xuất hóa đơn GTGT">Hướng dẫn xuất hóa đơn GTGT</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer_col">
+                    <hr>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 footer_col">
+                    <ul class="footer_itemlists">
+                        <li>Công ty cổ phần thương mại dịch vụ Trà Cà Phê VN</li>
+                        <li>Mã số DN: 0312867172 do sở kế hoạch và đầu tư tp. HCM cấp ngày 23/07/2014. Người đại diện: NGÔ NGUYÊN KHA</li>
+                        <li>Địa chỉ: 86-88 Cao Thắng, phường 04, quận 3, tp Hồ Chí Minh &nbsp; Điện thoại: (028) 7107 8079 &nbsp; Email: hi@thecoffeehouse.vn</li>
+                        <li>© 2014-2022 Công ty cổ phần thương mại dịch vụ Trà Cà Phê VN mọi quyền bảo lưu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        $(document).ready(function () {
+            loadData();
+            function loadData() {
+                $.ajax({
+                    url: '@Url.Action("IndexAJAX", "ShoppingCart")',
+                    type: 'GET',
+                    success: function (data) {
+                        if (data && data.success && data.data) {
+                            $("#badge-cart").html(data.data);
+                        }
+                    },
+
+                });
+            }
+            $('.add-to-cart-btn').click(function (e) {
+                e.preventDefault();
+                var productId = $(this).siblings('.Id-input').val();
+                var quantity = $(this).siblings('.quantity-input').val();
+                $.ajax({
+                    url: '@Url.Action("AddToCart", "ShoppingCart")',
+                    type: 'POST',
+                    data: { productId: productId, quantity: quantity },
+                    success: function (data) {
+                        if (data && data.success && data.data) {
+                            $("#badge-cart").html(data.data);
+                        }
+                        alert('Sản phẩm đã được thêm vào giỏ hàng.');
+                    },
+                    error: function () {
+                        alert('Vui lòng đăng nhập để tiếp tục');
+                    }
+
+                });
+            });
+        });
+    </script>
+</body>
+</html>

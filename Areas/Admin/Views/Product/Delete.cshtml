@@ -1,0 +1,16 @@
+﻿@model DACS_DAMH.Models.Product
+@{
+    ViewData["Title"] = "View";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete Product</h2>
+<form asp-action="Delete" method="post" class="d-flex flex-column">
+    <input type="hidden" asp-for="Id" />
+    <p class="h4 mb-3">Are you sure you want to delete @Model.Name?</p>
+    <div class="d-flex justify-content-between mt-auto">
+        <button asp-action="DeleteConfirmed" type="submit" class="btn btn-danger">Delete</button>
+        <a asp-action="Index" class="btn btn-light">Cancel</a>
+    </div>
+</form>
+

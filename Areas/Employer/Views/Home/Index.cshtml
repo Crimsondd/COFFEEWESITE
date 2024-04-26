@@ -1,0 +1,84 @@
+﻿@model X.PagedList.IPagedList<DACS_DAMH.Models.Product>
+@using X.PagedList.Mvc.Core
+
+@{
+    ViewData["Title"] = "IndexEmployer";
+    int numOfQuatity = 1;
+}
+
+<br />
+<section class="menu_home">
+    <div class="container" style="padding-top : 25px">
+        <div class="row">
+            <div class="clearfix"></div>
+            <div class="menu_list_home flex_wrap display_flex">
+                @foreach (var item in Model)
+                {
+                    <div class="menu_item">
+                        <div class="menu_item_image">
+                            <a href="#" title="@Html.DisplayFor(modelItem => item.Name)"><img class=" ls-is-cached lazyloaded" src="@item.ImageUrl" alt="jpg"></a>
+                            <ul class="labels">
+                            </ul>
+
+                        </div>
+                        <div class="menu_item_info">
+                            <h3><a href="#" title="@Html.DisplayFor(modelItem => item.Name)">@Html.DisplayFor(modelItem => item.Name)</a></h3>
+                            <div class="price_product_item">@item.Price.ToString("#,##0") Vnđ</div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+                           
+<style>
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Căn chỉnh các thành phần theo chiều dọc */
+        list-style: none;
+        padding: 8px 0;
+    }
+
+        .pagination li {
+            margin: 0 5px; /* Khoảng cách giữa các ô trang */
+        }
+
+            .pagination li a {
+                display: inline-block;
+                padding: 8px 12px;
+                background-color: white; /* Màu nền mặc định */
+                color: black; /* Màu chữ mặc định */
+                text-decoration: none;
+                border-radius: 5px;
+                transition: background-color 0.3s; /* Hiệu ứng màu khi di chuột */
+                box-shadow: none; /* Xóa bóng đổ mặc định */
+                line-height: 1; /* Thiết lập line-height cố định */
+            }
+
+                .pagination li a:hover {
+                    background-color: yellow; /* Màu vàng khi di chuột vào */
+                }
+
+            .pagination li.active a {
+                background-color: #45a049; /* Màu xanh lá đậm cho ô trang đã chọn */
+                box-shadow: none; /* Xóa bóng đổ của ô trang đã chọn */
+            }
+
+            /* Thiết lập kích thước của con số trong ô trang */
+            .pagination li a span {
+                display: inline-block;
+                width: 100%; /* Đảm bảo rằng con số chiếm toàn bộ chiều rộng của ô trang */
+                text-align: center; /* Căn giữa nội dung trong ô trang */
+            }
+</style>
+
+<div>
+    <ul class="pagination">
+        <li><a href="@Url.Action("Index", "Home", new { page = 1 })">Trang đầu</a></li>
+
+        @Html.PagedListPager(Model, page => Url.Action("Index", "Home", new { page = page }))
+        <li><a href="@Url.Action("Index", "Home", new { page = Model.PageCount })">Trang cuối</a></li>
+    </ul>
+</div>

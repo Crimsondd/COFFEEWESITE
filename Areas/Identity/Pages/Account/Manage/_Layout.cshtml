@@ -1,0 +1,34 @@
+﻿@{
+    if (User.IsInRole("Admin"))
+    {
+        Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    }
+    if (User.IsInRole("Employer"))
+    {
+        Layout = "~/Areas/Employer/Views/Shared/_Layout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+}
+
+<h2>QUẢN LÝ TÀI KHOẢN</h2>
+
+<div>
+    <h4>Cập nhật thông tin tài khoản của bạn</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-3">
+            <partial name="_ManageNav" />
+        </div>
+        <div class="col-md-9">
+            @RenderBody()
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}
