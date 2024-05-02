@@ -1,0 +1,50 @@
+﻿@model IEnumerable<DACS_DAMH.Models.Discount>
+
+@{
+    ViewData["Title"] = "Index";
+
+}
+
+<h2>List Of Discounts</h2>
+
+<p>
+    <a class="btn btn-primary btn-sm" asp-action="Add">Create New</a>
+</p> 
+<table class="table table-striped table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Code</th>
+            <th>Percentage</th>
+            <th>Expdate</th>
+            <th>Remain</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdDiscount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Code)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Percentage)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Expdate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Remain)
+                </td>
+                <td>
+                    <a class="btn btn-success btn-sm" asp-action="Update" asp-route-id="@item.IdDiscount">Update</a>
+                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.IdDiscount">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

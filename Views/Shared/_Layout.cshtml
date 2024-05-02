@@ -80,7 +80,7 @@
                         <partial name="_LoginPartial" />
 
                         <form style="padding-right :10px">
-                            <button class="btn btn-outline-danger" type="submit" asp-controller="ShoppingCart" asp-action="Index">
+                            <button class="btn btn-outline-danger" type="submit" asp-area="" asp-controller="ShoppingCart" asp-action="Index">
                                 <i class="bi-cart-fill me-1">Cart</i>
                                 <span class="badge bg-danger text-white" id="badge-cart">0</span>
 
@@ -88,7 +88,7 @@
                         </form>
 
                         <form>
-                            <button class="btn btn-outline-danger" type="submit" asp-controller="ShoppingCart" asp-action="OrderHistory">
+                            <button class="btn btn-outline-danger" type="submit" asp-area="" asp-controller="ShoppingCart" asp-action="OrderHistory">
                                 <i class="bi-cart-fill me-1"></i>
                                 Lịch sử đơn hàng
                             </button>

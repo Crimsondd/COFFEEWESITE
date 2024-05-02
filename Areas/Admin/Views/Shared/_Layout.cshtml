@@ -1,176 +1,297 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <title>COFFEE RACER</title>
-    <link rel="stylesheet" href="~/css/site.css">
-</head>
-<body>
-    <div class="top-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="header-meta-list">
-                        <div>
-                            <a href="/">
-                                <img src="https://file.hstatic.net/1000075078/file/vector_706a88566eab4f009bed6eea93cd890b.png">
-                                <span>200 Cửa hàng khắp cả nước</span>
-                            </a>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Admin - Dashboard</title>
+
+        <!-- Custom fonts for this template-->
+        <link href="~/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+              rel="stylesheet">
+
+        <!-- Custom styles for this template-->
+        <link href="~/css/sb-admin-2.min.css" rel="stylesheet">
+
+
+    </head>
+
+    <body id="page-top">
+
+        <!-- Page Wrapper -->
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+                <!-- Sidebar - Brand -->
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                    <div class="sidebar-brand-text mx-3"> Admin <sup></sup></div>
+                </a>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
+
+                <!-- Nav Item - Dashboard -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+                <!-- Heading -->
+                @* <div class="sidebar-heading">
+                    Interface
+                </div> *@
+
+                <!-- Nav Item - Home Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                       aria-expanded="true" aria-controls="collapseTwo">
+                        <i class="fas fa-fw fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="buttons.html">Buttons</a>
+                            <a class="collapse-item" href="cards.html">Cards</a>
                         </div>
-                        <div>
-                            <a href="/">
-                                <img src="https://file.hstatic.net/1000075078/file/group_8de276faa50c486b9d485826c506803b.png">
-                                <span>Đặt hàng: 1999.9999</span>
-                            </a>
+                    </div>
+                </li>
+
+                <!-- Nav Item - User Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                       aria-expanded="true" aria-controls="collapseUtilities">
+                        <i class="fas fa-fw fa-users "></i>
+                        <span>Users</span>
+                    </a>
+                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                         data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" asp-area="Admin" asp-page="/Role/User" >Users Management</a>
+                            <a class="collapse-item" asp-area="Admin" asp-page="/Role/Index">Role Mangement</a>
+                            
                         </div>
-                        <div>
-                            <a href="">
-                                <img src="">
-                                <span></span>
-                            </a>
+                    </div>
+                </li>
+
+                
+                <!-- Nav Item - Pages Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                       aria-expanded="true" aria-controls="collapsePages">
+                        <i class="fas fa-fw fa-shopping-basket "></i>
+                        <span>Products</span>
+                    </a>
+                    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Products Management</a>
+                        <a class="collapse-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category Management</a>
+
                         </div>
+                    </div>
+                </li>
+
+                <!-- Nav Item - Charts -->
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="Admin" asp-controller="Statistic" asp-action="Index">
+                        <i class="fas fa-fw fa-chart-area"></i>
+                        <span>Charts</span>
+                    </a>
+                </li>
+
+                <!-- Nav Item - Orders -->
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Order">
+                        <i class="fas fa-fw fa-history"></i>
+                        <span>Orders History</span>
+                    </a>
+                </li>
+
+                <!-- Nav Item - Discounts -->
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="Admin" asp-controller="Discount" asp-action="Index">
+                    <i class="fas fa-fw fa-star"></i>
+                        <span>Discounts</span>
+                    </a>
+                </li>
+
+                
+
+                <!-- Divider -->
+                <hr class="sidebar-divider d-none d-md-block">
+
+                <!-- Sidebar Toggler (Sidebar) -->
+                <div class="text-center d-none d-md-inline">
+                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+                </div>
+
+            </ul>
+            <!-- End of Sidebar -->
+            <!-- Content Wrapper -->
+            <div id="content-wrapper" class="d-flex flex-column">
+
+                <!-- Main Content -->
+                <div id="content">
+
+                    <!-- Topbar -->
+                    <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                        <!-- Sidebar Toggle (Topbar) -->
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                            <i class="fa fa-bars"></i>
+                        </button>
+
+                        <!-- Topbar Search -->
+                        <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                            <div class="input-group">
+                            <input type="text" id="postTitle" name="postTitle" class="form-control bg-light border-0 small" placeholder="Search for..."
+                                       aria-label="Search" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="submit">
+                                        <i class="fas fa-search fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <!-- Topbar Navbar -->
+                        <ul class="navbar-nav ml-auto">
+
+                            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                            <li class="nav-item dropdown no-arrow d-sm-none">
+                                <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-search fa-fw"></i>
+                                </a>
+                                <!-- Dropdown - Messages -->
+                                <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                     aria-labelledby="searchDropdown">
+                                    <form class="form-inline mr-auto w-100 navbar-search">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control bg-light border-0 small"
+                                                   placeholder="Search for..." aria-label="Search"
+                                                   aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary" type="button">
+                                                    <i class="fas fa-search fa-sm"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+
+                            <div class="topbar-divider d-none d-sm-block"></div>
+
+                            <!-- Nav Item - User Information -->
+                            <li class="nav-item dropdown no-arrow">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>                                    
+                                </a>
+                                <!-- Dropdown - User Information -->
+                                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                     aria-labelledby="userDropdown">
+                                    @* <a class="dropdown-item" href="#">
+                                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                        Profile
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                        Settings
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                        Activity Log
+                                    </a>
+                                    <div class="dropdown-divider"></div> *@
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                        Logout
+                                    </a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+                    <!-- End of Topbar -->
+                    <div class="container-fluid">
+                        @RenderBody()
+                    </div>
+                </div>
+                <!-- End of Main Content -->
+                <!-- Footer -->
+                <footer class="sticky-footer bg-white">
+                    <div class="container my-auto">
+                        <div class="copyright text-center my-auto">
+                            <span>Copyright &copy; The Coffee Racer 2024</span>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End of Footer -->
+
+            </div>
+            <!-- End of Content Wrapper -->
+
+        </div>
+        <!-- End of Page Wrapper -->
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+
+        <!-- Logout Modal-->
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button id="logout" type="submit" class="btn btn-danger">Logout</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <header>
-        <div class="container">
-            <div class="header_nav">
-                <div class="header_logo">
-                    <h1>
-                        <a class="logo-name" href="/" title="The Coffee Racer">The Coffee Racer</a>
-                    </h1>
-                </div>
 
-                <div class="header_menu">
-                    <div class="close-btn-wrap">
-                        <a href="" class="closemenu-mobile">
-                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7.00023 5.58599L11.9502 0.635986L13.3642 2.04999L8.41423 6.99999L13.3642 11.95L11.9502 13.364L7.00023 8.41399L2.05023 13.364L0.63623 11.95L5.58623 6.99999L0.63623 2.04999L2.05023 0.635986L7.00023 5.58599Z" fill="black" fill-opacity="0.85"></path>
-                            </svg>
-                        </a>
-                    </div>
-                    <ul class="clearfix">
-                        <li>
-                            <a asp-area="Admin" asp-page="/Role/User">User Management</a>
-                        </li>
-                        <li>
-                            <a asp-area="Admin" asp-controller="Product" asp-action="Index">Product Management</a>
-                        </li>
-                        <li>
-                            <a asp-area="Admin" asp-controller="Category" asp-action="Index">Category Management</a>
-                        </li>
-                        <li>
-                            <a asp-area="Admin" asp-page="/Role/Index">Role Management</a>
-                        </li>
-                        <li>
-                            <a asp-area="Admin" asp-controller="Statistic" asp-action="Index">Statistic Management</a>
-                        </li>
-                    </ul>
-                </div>
-                @*nhúng Icon giỏ hàng vào giao diện*@
+        <!-- Bootstrap core JavaScript-->
+        <script src="~/vendor/jquery/jquery.min.js"></script>
+        <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-                <div class="header_user d-flex">
-                    <div class="right" style="display: flex !important;align-items: center;">
-                        <partial name="_LoginPartial" />                       
-                    </div>
-                </div>
+            <!-- Core plugin JavaScript-->
+        <script src="~/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-            </div>
-        </div>
-    </header>
+            <!-- Custom scripts for all pages-->
+        <script src="~/js/sb-admin-2.min.js"></script>
 
-  
-    <div class="container" style="padding : 25px">
-        <div class="row">
-            <div class="clearfix">
-                @RenderBody()
-            </div>
-        </div>
-    </div>
+            <!-- Page level plugins -->
+        <script src="~/vendor/chart.js/Chart.min.js"></script>
 
+            <!-- Page level custom scripts -->
+        <script src="~/js/demo/chart-area-demo.js"></script>
+        <script src="~/js/demo/chart-pie-demo.js"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
 
-
-
-    <footer id="footer" style="padding-top:25px">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 col-lg-push-6 col-md-push-6 footer_col">
-                    <div class="hotline_footer">
-                        <p><img src="https://file.hstatic.net/1000075078/file/phone_0a42df1c753c4fa0910108daa73fe2ef.png">Đặt hàng: 1999.9999</p><p><img src="https://file.hstatic.net/1000075078/file/map-pin-2-line_575ccb91b6f94a308d1bd507d4ae72a7.png">Liên hệ</p>
-                    </div>
-                    <div class="address_footer">
-                        <p>Tầng 3-4 Hub Building <br> 195/10E Điện Biên Phủ, P.15,<br> Q.Bình Thạnh, TP.Hồ Chí Minh</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 col-lg-push-6 col-md-push-6 footer_col footer_right">
-                    <div class="tch_page">
-                        <div class="fb-page fb_iframe_widget" data-href="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=363772567412181&amp;container_width=270&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FThe.Coffee.House.2014%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false">
-                            <span style="vertical-align: bottom; width: 270px; height: 130px;">
-                                <iframe name="f4f07bf0c24898fa8" width="1000px" height="1000px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src=";app_id=363772567412181&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfffb3160debb4fc8e%26domain%3Dthecoffeehouse.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fthecoffeehouse.com%252Ffa2bbe108ebc71ac8%26relation%3Dparent.parent&amp;container_width=270&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FThe.Coffee.House.2014%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 270px; height: 130px;" class="">
-                                </iframe>
-                            </span>
-                        </div>
-                    </div>
-
-                    <ul class="tch_social_links">
-                        <li>
-                            <a href="https://www.facebook.com/The.Coffee.House.2014/">
-                                <img src="https://file.hstatic.net/1000075078/file/test_fd4e30831d14438f9d0f1fcf255dfadb.svg">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/thecoffeehousevn/">
-                                <img src="https://file.hstatic.net/1000075078/file/test_db37bb3840ac45f3a0a3cf7aa8a57d9e.svg">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-lg-pull-6 col-md-pull-6 footer_col">
-                    <h3 class="footer_title">Giới thiệu</h3>                <ul class="footer_linklists">
-                        <li><a href="/pages/chuyen-ca-phe-va-tra" title="Về Chúng Tôi">Về Chúng Tôi</a></li>
-                        <li><a href="/" title="Sản phẩm">Sản phẩm</a></li>
-                        <li><a href="/" title="Khuyến mãi">Khuyến mãi</a></li>
-                        <li><a href="/pages/hat-ca-phe-the-coffee-house" title="Chuyện cà phê">Chuyện cà phê</a></li>
-                        <li><a href="/pages/our-stores" title="Cửa Hàng">Cửa Hàng</a></li>
-                        <li><a href="http://tuyendung.thecoffeehouse.com/" title="Tuyển dụng">Tuyển dụng</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-lg-pull-6 col-md-pull-6 footer_col">
-                    <h3 class="footer_title">Điều khoản</h3>                <ul class="footer_linklists">
-                        <li><a href="/pages/dieu-khoan-su-dung" title="Điều khoản sử dụng">Điều khoản sử dụng</a></li>
-                        <li><a href="/pages/chinh-sach-bao-mat-thong-tin" title="Chính sách bảo mật thông tin">Chính sách bảo mật thông tin</a></li>
-                        <li><a href="/pages/huong-dan-xuat-hoa-don-gtgt" title="Hướng dẫn xuất hóa đơn GTGT">Hướng dẫn xuất hóa đơn GTGT</a></li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer_col">
-                    <hr>
-                </div>
-                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 footer_col">
-                    <ul class="footer_itemlists">
-                        <li>Công ty cổ phần thương mại dịch vụ Trà Cà Phê VN</li>
-                        <li>Mã số DN: 0312867172 do sở kế hoạch và đầu tư tp. HCM cấp ngày 23/07/2014. Người đại diện: NGÔ NGUYÊN KHA</li>
-                        <li>Địa chỉ: 86-88 Cao Thắng, phường 04, quận 3, tp Hồ Chí Minh &nbsp; Điện thoại: (028) 7107 8079 &nbsp; Email: hi@thecoffeehouse.vn</li>
-                        <li>© 2014-2022 Công ty cổ phần thương mại dịch vụ Trà Cà Phê VN mọi quyền bảo lưu</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
 </html>

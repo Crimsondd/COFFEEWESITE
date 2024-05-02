@@ -1,14 +1,10 @@
 ﻿
 @page "/Admin/Role/users/"
 @model DACS_DAMH.Areas.Admin.Pages.Role.UserModel
-@{
-    ViewData["Title"] = "DANH SÁCH NGƯỜI DÙNG";
-}
 
 
-<div class="container-fluid text-center text-white p-3 rounded">
-    <h2>@ViewData["Title"]</h2>
-</div>
+<h2>USER LIST</h2>
+
 <partial name="_StatusMessage" model="@Model.StatusMessage" />
 
 <table class="table table-striped">
@@ -24,10 +20,10 @@
             <td>@user.listroles</td>
             <td>
                 <form method="POST" class="d-inline">
-                <button name="Input.ID" value="@user.Id" class="btn btn-primary btn-sm" 
-                        asp-page="./AddUserRole">Cập nhật Role</button>
+                    <button name="Input.ID" value="@user.Id" class="btn btn-primary btn-sm" 
+                        asp-page="./AddUserRole">Update Roles</button>
                 </form>
-                <a class="btn btn-primary" asp-page="./ForgotPassword" asp-route-id="@user.Id">Reset mật khẩu</a>
+                <a class="btn btn-primary btn-sm" asp-page="./ForgotPassword" asp-route-id="@user.Id">Reset Password</a>
                 @* <form method="POST" class="d-inline">
                     <button name="Input.ID" value="@user.Id" class="btn btn-primary btn-sm"
                             asp-page="./SetPassword">

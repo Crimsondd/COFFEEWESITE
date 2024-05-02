@@ -9,7 +9,7 @@ using X.PagedList;
 
 namespace DACS_DAMH.Controllers
 {
-    [Authorize]
+    [AllowAnonymous]
     public class HomeController : Controller
     {
         private readonly IProductRepository _productRepository;
@@ -35,7 +35,7 @@ namespace DACS_DAMH.Controllers
         {
             if (User.IsInRole("Admin"))
             {
-                return RedirectToAction("Index", "Home", new { area = "Admin" });
+                return RedirectToAction("Index", "Statistic", new { area = "Admin" });
             }
             if (User.IsInRole("Employer"))
             {

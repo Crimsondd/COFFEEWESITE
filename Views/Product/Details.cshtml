@@ -2,7 +2,7 @@
 @model DACS_DAMH.Models.Product;
 @{
     ViewData["Title"] = "Details";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
 }
 
 <h2>@Model.Name</h2>
@@ -15,7 +15,7 @@
     </div>
     <div class="col-md-6 product-info">
         <h3>Price: @Model.Price.ToString("C", new CultureInfo("vi-VN"))</h3>  <p>@Model.Description</p>
-        <a asp-action="Index">Back to List</a>
+        <a asp-area="" asp-controller="Home" class="btn btn-primary btn-sm" asp-action="Index">Back to List</a>
     </div>
 </div>
 

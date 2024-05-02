@@ -14,7 +14,7 @@
     </div>
     <div class="col-md-6 product-info">
         <h3>Price: @Model.Price.ToString("C", new CultureInfo("vi-VN"))</h3>  <p>@Model.Description</p>
-        <a asp-action="Index">Back to List</a>
+        <a asp-area="Admin" asp-controller="Product" class="btn btn-primary btn-sm" asp-action="Index">Back to List</a>
     </div>
 </div>
 

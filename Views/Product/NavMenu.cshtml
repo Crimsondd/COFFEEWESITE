@@ -14,25 +14,22 @@
                 {
                     <div class="menu_item">
                         <div class="menu_item_image">
-                            <a href="#" title="@Html.DisplayFor(modelItem => item.Name)"><img class=" ls-is-cached lazyloaded" src="@item.ImageUrl" alt="jpg"></a>
+                            <a asp-controller="Product" asp-action="Details" asp-route-id="@item.Id" title="@Html.DisplayFor(modelItem => item.Name)">
+                                <img class=" ls-is-cached lazyloaded" src="@item.ImageUrl" alt="jpg">
+                            </a>
                             <ul class="labels">
                             </ul>
-
                         </div>
                         <div class="menu_item_info">
-                            <h3><a href="#" title="@Html.DisplayFor(modelItem => item.Name)">@Html.DisplayFor(modelItem => item.Name)</a></h3>
-                            <div class="price_product_item">@item.Price.ToString("#,##0") Vnđ</div>
+                            <h3><a asp-controller="Product" asp-action="Details" asp-route-id="@item.Id" title="@Html.DisplayFor(modelItem => item.Name)">@Html.DisplayFor(modelItem => item.Name)</a></h3>
+                            <div class="price_product_item" style="color:red">@item.Price.ToString("#,##0") đ</div>
                         </div>
 
                         <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-quantity="@numOfQuatity">
-                            <button class="btn btn-outline-dark">
-                                <i class="bi-cart-fill me-1"></i> Add to Cart
-                            </button>
-                        </a>
-
-                        <a asp-controller="Product" asp-action="Details" asp-route-id="@item.Id">
-                            <button class="btn btn-outline-dark">
-                                <i class="bi-cart-fill me-1"></i> Details
+                            <input hidden type="text" name="Id" value="@item.Id" class="formcontrol Id-input mb-2" />
+                            <input hidden type="number" name="quantity" value="1" class="form-control quantity-input mb-2" />
+                            <button class="add-to-cart-btn btn btn-lg btn-outline-dark">
+                                <i class="bi-cart-fill me-1"></i>
                             </button>
                         </a>
                     </div>
