@@ -881,4 +881,3 @@ C:\Users\pc\Desktop\memaybeo\DACS-DAMH\bin\Debug\net8.0\X.PagedList.dll
 C:\Users\pc\Desktop\memaybeo\DACS-DAMH\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
 C:\Users\pc\Desktop\memaybeo\DACS-DAMH\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout2.cshtml.rz.scp.css
 C:\Users\pc\Desktop\memaybeo\DACS-DAMH\obj\Debug\net8.0\DACS-DAMH.sourcelink.json
-C:\Users\pc\Desktop\memaybeo\DACS-DAMH\bin\Debug\net8.0\wwwroot\vendor\fontawesome-free\package.json

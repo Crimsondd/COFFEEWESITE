@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\wwwroot\\vendor\\fontawesome-free\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:wwwroot\\vendor\\fontawesome-free\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\areas\\admin\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:areas\\admin\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -93,14 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\migrations\\20240405025112_addorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:migrations\\20240405025112_addorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -199,10 +243,6 @@
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -213,10 +253,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\mailutils\\mailutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -383,14 +419,6 @@
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\paymodel\\paymentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:paymodel\\paymentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -417,10 +445,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\daymonthyearbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\daymonthyearbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -515,10 +539,6 @@
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\areas\\admin\\pages\\role\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:areas\\admin\\pages\\role\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -531,24 +551,12 @@
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:areas\\admin\\pages\\role\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\migrations\\20240329024238_updateidentityuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:migrations\\20240329024238_updateidentityuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|solutionrelative:models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C5C2E5B-25B3-41D1-AC1E-232472301866}|DACS-DAMH.csproj|c:\\users\\pc\\desktop\\memaybeo\\dacs-damh\\areas\\admin\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -701,7 +709,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -709,306 +717,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\vendor\\fontawesome-free\\package-lock.json",
+              "RelativeDocumentMoniker": "wwwroot\\vendor\\fontawesome-free\\package-lock.json",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\vendor\\fontawesome-free\\package-lock.json",
+              "RelativeToolTip": "wwwroot\\vendor\\fontawesome-free\\package-lock.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-03T06:45:19.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Discount\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Discount\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Discount\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Discount\\Index.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAAoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T05:30:28.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Order.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Order\\Order.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Order\\Order.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Order\\Order.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Order\\Order.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-17T05:30:48.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Statistic\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Statistic\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Statistic\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Statistic\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T19:42:25.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T01:12:50.227Z",
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T06:32:12.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-17T03:27:20.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAABqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-17T03:27:23.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Details.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Details.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T01:12:47.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Details.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Product\\Details.cshtml",
-              "RelativeToolTip": "Views\\Product\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T03:01:19.673Z",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:53:19.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAC0AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T01:12:53.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Pages\\Role\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T20:36:56.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Add.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Add.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Add.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Add.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T01:12:32.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T01:14:26.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\User.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\User.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\User.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Pages\\Role\\User.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:56:45.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_StatusMessage.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\_StatusMessage.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\_StatusMessage.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\_StatusMessage.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Pages\\_StatusMessage.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T20:58:47.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwDQAAAAnAAAA",
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAEsCAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T05:04:51.671Z",
+              "WhenOpened": "2024-04-06T05:52:53.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Order.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Order\\Order.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Employer\\Views\\Order\\Order.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Order\\Order.cshtml",
-              "RelativeToolTip": "Areas\\Employer\\Views\\Order\\Order.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-17T11:44:15.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DiscountController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Controllers\\DiscountController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DiscountController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Controllers\\DiscountController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\DiscountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T04:36:43.373Z",
+              "WhenOpened": "2024-04-16T21:44:12.679Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T02:37:23.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Employer\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Areas\\Employer\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-17T00:46:12.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Areas\\Employer\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Areas\\Employer\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwBsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:40:33.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Areas\\Employer\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Areas\\Employer\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T23:47:26.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DiscountController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\DiscountController.cs",
-              "RelativeDocumentMoniker": "Areas\\Employer\\Controllers\\DiscountController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\DiscountController.cs",
-              "RelativeToolTip": "Areas\\Employer\\Controllers\\DiscountController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T05:10:18.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20240405025112_addOrder.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240405025112_addOrder.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240405025112_addOrder.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240405025112_addOrder.cs",
-              "RelativeToolTip": "Migrations\\20240405025112_addOrder.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAQwBwAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T06:12:15.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 3,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
@@ -1021,7 +795,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T19:22:22.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "Models\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ProductImage.cs",
+              "RelativeToolTip": "Models\\ProductImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:54:06.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T04:28:05.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-07T02:30:05.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "Models\\CartItem.cs",
@@ -1034,7 +860,310 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T02:37:19.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\libman.json",
+              "RelativeDocumentMoniker": "libman.json",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\libman.json",
+              "RelativeToolTip": "libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-16T10:56:15.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T01:12:47.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T03:01:19.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T03:27:23.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T03:27:20.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T01:12:50.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Statistic\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Statistic\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Statistic\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Statistic\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T19:42:25.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Order.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Order\\Order.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Order\\Order.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Order\\Order.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Order\\Order.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T05:30:48.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Discount\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Discount\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Discount\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Discount\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T05:30:28.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC0AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T01:12:53.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Pages\\Role\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T20:36:56.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Add.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T01:12:32.803Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T01:14:26.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\User.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\User.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\User.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Pages\\Role\\User.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T05:56:45.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_StatusMessage.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\_StatusMessage.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\_StatusMessage.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\_StatusMessage.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Pages\\_StatusMessage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T20:58:47.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwDQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T05:04:51.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Order.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Order\\Order.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Employer\\Views\\Order\\Order.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Order\\Order.cshtml",
+              "RelativeToolTip": "Areas\\Employer\\Views\\Order\\Order.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T11:44:15.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DiscountController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Controllers\\DiscountController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DiscountController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Controllers\\DiscountController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DiscountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T04:36:43.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T02:37:23.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Employer\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Employer\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T00:46:12.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Areas\\Employer\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Areas\\Employer\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T11:40:33.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Employer\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas\\Employer\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T23:47:26.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DiscountController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\DiscountController.cs",
+              "RelativeDocumentMoniker": "Areas\\Employer\\Controllers\\DiscountController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\DiscountController.cs",
+              "RelativeToolTip": "Areas\\Employer\\Controllers\\DiscountController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T05:10:18.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240405025112_addOrder.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240405025112_addOrder.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240405025112_addOrder.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240405025112_addOrder.cs",
+              "RelativeToolTip": "Migrations\\20240405025112_addOrder.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwBwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:12:15.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "Models\\ShoppingCart.cs",
@@ -1042,12 +1171,11 @@
               "RelativeToolTip": "Models\\ShoppingCart.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T05:54:24.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T05:54:24.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 38,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -1055,12 +1183,11 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAAwCIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T11:48:01.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T11:48:01.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 37,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Areas\\Employer\\Controllers\\ProductController.cs",
@@ -1068,12 +1195,11 @@
               "RelativeToolTip": "Areas\\Employer\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAJwAAAAAAAAAAAAIwBsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T22:24:03.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T22:24:03.935Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 39,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
@@ -1081,12 +1207,11 @@
               "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAIoAAAAAAAAAAAAAAKUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T23:44:32.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T23:44:32.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 40,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_LoginPartial.cshtml",
@@ -1094,12 +1219,11 @@
               "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T01:12:25.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T01:12:25.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 41,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -1107,12 +1231,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAFIBAAAAAAAAAAAAAGcBAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T01:56:09.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T01:56:09.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 42,
               "Title": "ResetPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\ResetPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\ResetPasswordConfirmation.cshtml",
@@ -1120,12 +1243,11 @@
               "RelativeToolTip": "Areas\\Admin\\Pages\\Role\\ResetPasswordConfirmation.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-19T02:25:17.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T02:25:17.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 43,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\ResetPassword.cshtml",
@@ -1133,12 +1255,11 @@
               "RelativeToolTip": "Areas\\Admin\\Pages\\Role\\ResetPassword.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-19T02:25:18.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T02:25:18.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 44,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategoryController.cs",
@@ -1146,12 +1267,11 @@
               "RelativeToolTip": "Areas\\Admin\\Controllers\\CategoryController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T03:26:17.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T03:26:17.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 46,
               "Title": "StatisticController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Controllers\\StatisticController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\StatisticController.cs",
@@ -1159,12 +1279,11 @@
               "RelativeToolTip": "Areas\\Admin\\Controllers\\StatisticController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAuwC8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T19:40:11.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T19:40:11.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 45,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
@@ -1172,12 +1291,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T00:54:47.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T00:54:47.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 49,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\Index.cshtml",
@@ -1189,7 +1307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 47,
               "Title": "NavMenu.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Product\\NavMenu.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\NavMenu.cshtml",
@@ -1201,7 +1319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 48,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -1213,7 +1331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 51,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -1225,7 +1343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 50,
               "Title": "_Layout2.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Shared\\_Layout2.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout2.cshtml",
@@ -1237,7 +1355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 52,
               "Title": "IdentityHostingStartup.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\IdentityHostingStartup.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\IdentityHostingStartup.cs",
@@ -1249,7 +1367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 53,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
@@ -1261,7 +1379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 54,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -1273,7 +1391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 55,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -1285,7 +1403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 56,
               "Title": "OrderHistory.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\ShoppingCart\\OrderHistory.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\OrderHistory.cshtml",
@@ -1297,7 +1415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 58,
               "Title": "OrderCompleted.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\ShoppingCart\\OrderCompleted.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\OrderCompleted.cshtml",
@@ -1309,7 +1427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 59,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\ShoppingCart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\Checkout.cshtml",
@@ -1321,7 +1439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 57,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -1333,19 +1451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T02:37:19.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 61,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
@@ -1357,7 +1463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 62,
               "Title": "ExternalLogin.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
@@ -1369,7 +1475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 60,
               "Title": "ConfirmEmail.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
@@ -1381,19 +1487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-15T04:28:05.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 70,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\Add.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\Add.cshtml",
@@ -1405,7 +1499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "MailUtils.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\MailUtils\\MailUtils.cs",
               "RelativeDocumentMoniker": "MailUtils\\MailUtils.cs",
@@ -1417,7 +1511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -1429,7 +1523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 65,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -1441,7 +1535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 66,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\ForgotPassword.cshtml",
@@ -1453,7 +1547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 67,
               "Title": "ForgotPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\ForgotPassword.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\ForgotPassword.cshtml.cs",
@@ -1465,7 +1559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 75,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Employer\\Views\\_ViewStart.cshtml",
@@ -1477,7 +1571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 72,
               "Title": "_ManageNav.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
@@ -1489,7 +1583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 71,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
@@ -1501,7 +1595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 68,
               "Title": "AddUserRole.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\AddUserRole.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\AddUserRole.cshtml",
@@ -1513,7 +1607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 69,
               "Title": "AddUserRole.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\AddUserRole.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\AddUserRole.cshtml.cs",
@@ -1525,7 +1619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 73,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
@@ -1537,7 +1631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 74,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Areas\\Employer\\Views\\Shared\\_LoginPartial.cshtml",
@@ -1549,7 +1643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 76,
               "Title": "ForgotPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\ForgotPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\ForgotPasswordConfirmation.cshtml",
@@ -1561,7 +1655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 79,
               "Title": "ResetPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
@@ -1573,7 +1667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 78,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
@@ -1585,7 +1679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 77,
               "Title": "ResetPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\ResetPassword.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\ResetPassword.cshtml.cs",
@@ -1597,7 +1691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 80,
               "Title": "ResetPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
@@ -1609,7 +1703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 81,
               "Title": "ForgotPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
@@ -1621,7 +1715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 82,
               "Title": "ForgotPasswordConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml.cs",
@@ -1633,7 +1727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 83,
               "Title": "ForgotPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
@@ -1645,7 +1739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 84,
               "Title": "ForgotPasswordConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\ForgotPasswordConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\ForgotPasswordConfirmation.cshtml.cs",
@@ -1657,7 +1751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 85,
               "Title": "ResetPasswordConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\ResetPasswordConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\ResetPasswordConfirmation.cshtml.cs",
@@ -1669,7 +1763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 86,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductController.cs",
@@ -1681,7 +1775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 87,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Employer\\Views\\Shared\\_Layout.cshtml",
@@ -1693,7 +1787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 88,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Employer\\Views\\Home\\Index.cshtml",
@@ -1705,7 +1799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 89,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -1717,7 +1811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 90,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
@@ -1729,7 +1823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 91,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ViewStart.cshtml",
@@ -1741,7 +1835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 92,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -1753,7 +1847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 93,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
@@ -1765,7 +1859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 94,
               "Title": "TwoFactorAuthentication.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
@@ -1777,7 +1871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 95,
               "Title": "PersonalData.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
@@ -1789,7 +1883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 96,
               "Title": "ManageNavPages.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
@@ -1801,7 +1895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 97,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Create.cshtml",
@@ -1813,7 +1907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 98,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Delete.cshtml",
@@ -1825,7 +1919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 99,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Employer\\Views\\Product\\Index.cshtml",
@@ -1837,7 +1931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 101,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\Delete.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\Delete.cshtml",
@@ -1849,7 +1943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 100,
               "Title": "User.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\User.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\User.cshtml.cs",
@@ -1861,7 +1955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 102,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\_ViewImports.cshtml",
@@ -1873,7 +1967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 105,
               "Title": "MoMoSecurity.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Paymodel\\MoMoSecurity.cs",
               "RelativeDocumentMoniker": "Paymodel\\MoMoSecurity.cs",
@@ -1885,7 +1979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 103,
               "Title": "ShoppingCartController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Controllers\\ShoppingCartController.cs",
               "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
@@ -1897,31 +1991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T05:53:19.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 96,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T21:44:12.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 104,
               "Title": "PaymentRequest.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Paymodel\\PaymentRequest.cs",
               "RelativeDocumentMoniker": "Paymodel\\PaymentRequest.cs",
@@ -1933,7 +2003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 106,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Repository\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Repository\\OrderRepository.cs",
@@ -1945,7 +2015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 107,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Repository\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IProductRepository.cs",
@@ -1957,7 +2027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 108,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Repository\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IOrderRepository.cs",
@@ -1969,7 +2039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 109,
               "Title": "MomoPaymentController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Controllers\\MomoPaymentController.cs",
               "RelativeDocumentMoniker": "Controllers\\MomoPaymentController.cs",
@@ -1981,7 +2051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 110,
               "Title": "DayMonthYearBinder.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\DayMonthYearBinder.cs",
               "RelativeDocumentMoniker": "Models\\DayMonthYearBinder.cs",
@@ -1993,19 +2063,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T19:22:22.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 111,
               "Title": "Discount.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\Discount.cs",
               "RelativeDocumentMoniker": "Models\\Discount.cs",
@@ -2017,7 +2075,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 112,
               "Title": "RegisterConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
@@ -2029,7 +2087,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 162,
+              "DocumentIndex": 164,
               "Title": "20240417162725_addDiscount.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240417162725_addDiscount.cs",
               "RelativeDocumentMoniker": "Migrations\\20240417162725_addDiscount.cs",
@@ -2041,7 +2099,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 114,
               "Title": "RegisterConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
@@ -2053,7 +2111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 113,
               "Title": "ConfirmEmail.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
@@ -2065,7 +2123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 115,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
@@ -2077,7 +2135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 116,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -2089,7 +2147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 117,
               "Title": "ResetPasswordConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml.cs",
@@ -2101,7 +2159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 118,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
@@ -2113,7 +2171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 119,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -2125,7 +2183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 120,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -2137,7 +2195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 163,
+              "DocumentIndex": 165,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Models\\OrderRepository.cs",
@@ -2149,7 +2207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 164,
+              "DocumentIndex": 166,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Models\\IOrderRepository.cs",
@@ -2161,7 +2219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 121,
               "Title": "NavMenu.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Product\\NavMenu.cshtml",
               "RelativeDocumentMoniker": "Areas\\Employer\\Views\\Product\\NavMenu.cshtml",
@@ -2173,7 +2231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 122,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -2185,7 +2243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 123,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -2197,7 +2255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 124,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Delete.cshtml",
@@ -2209,7 +2267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 125,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Areas\\Employer\\Views\\Home\\Privacy.cshtml",
@@ -2221,7 +2279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 126,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Product\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Employer\\Views\\Product\\Update.cshtml",
@@ -2233,7 +2291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 127,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Product\\Details.cshtml",
               "RelativeDocumentMoniker": "Areas\\Employer\\Views\\Product\\Details.cshtml",
@@ -2245,7 +2303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 128,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Employer\\Views\\Product\\Add.cshtml",
               "RelativeDocumentMoniker": "Areas\\Employer\\Views\\Product\\Add.cshtml",
@@ -2257,7 +2315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 165,
+              "DocumentIndex": 167,
               "Title": "EFCategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\EFCategoryRepository.cs",
               "RelativeDocumentMoniker": "Models\\EFCategoryRepository.cs",
@@ -2269,7 +2327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 166,
+              "DocumentIndex": 168,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Models\\IProductRepository.cs",
@@ -2281,7 +2339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 167,
+              "DocumentIndex": 169,
               "Title": "EFProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\EFProductRepository.cs",
               "RelativeDocumentMoniker": "Models\\EFProductRepository.cs",
@@ -2293,7 +2351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 168,
+              "DocumentIndex": 170,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Models\\ICategoryRepository.cs",
@@ -2305,7 +2363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 129,
               "Title": "20240329012149_addIdentity.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240329012149_addIdentity.cs",
               "RelativeDocumentMoniker": "Migrations\\20240329012149_addIdentity.cs",
@@ -2317,7 +2375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 130,
               "Title": "20240322021547_initDB.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240322021547_initDB.cs",
               "RelativeDocumentMoniker": "Migrations\\20240322021547_initDB.cs",
@@ -2329,7 +2387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 169,
+              "DocumentIndex": 171,
               "Title": "IMenuService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\IMenuService.cs",
               "RelativeDocumentMoniker": "Models\\IMenuService.cs",
@@ -2341,7 +2399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 131,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
@@ -2353,7 +2411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 132,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -2365,7 +2423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 133,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -2377,19 +2435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
-              "Title": "libman.json",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\libman.json",
-              "RelativeDocumentMoniker": "libman.json",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\libman.json",
-              "RelativeToolTip": "libman.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-16T10:56:15.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 134,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\Index.cshtml.cs",
@@ -2401,7 +2447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 135,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Extentions\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "Extentions\\SessionExtensions.cs",
@@ -2413,7 +2459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 172,
+              "DocumentIndex": 174,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
@@ -2425,7 +2471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 136,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\_ViewStart.cshtml",
@@ -2437,19 +2483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "ScaffoldingReadMe.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-07T02:30:05.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 137,
               "Title": "20240329024238_updateIdentityUser.Designer.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240329024238_updateIdentityUser.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20240329024238_updateIdentityUser.Designer.cs",
@@ -2461,19 +2495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T05:52:53.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 161,
+              "DocumentIndex": 163,
               "Title": "DACS-DAMH.AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\obj\\Debug\\net8.0\\DACS-DAMH.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\DACS-DAMH.AssemblyInfo.cs",
@@ -2485,7 +2507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 170,
+              "DocumentIndex": 172,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\Menu.cs",
               "RelativeDocumentMoniker": "Models\\Menu.cs",
@@ -2497,7 +2519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 171,
+              "DocumentIndex": 173,
               "Title": "MenuService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\MenuService.cs",
               "RelativeDocumentMoniker": "Models\\MenuService.cs",
@@ -2509,19 +2531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
-              "Title": "ProductImage.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ProductImage.cs",
-              "RelativeDocumentMoniker": "Models\\ProductImage.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\ProductImage.cs",
-              "RelativeToolTip": "Models\\ProductImage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T05:54:06.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 138,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -2533,7 +2543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 139,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\Error.cshtml",
@@ -2545,7 +2555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 140,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -2557,7 +2567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 141,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml.css",
@@ -2569,7 +2579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 142,
               "Title": "Add.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\Add.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\Add.cshtml.cs",
@@ -2581,7 +2591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 143,
               "Title": "ChangePassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
@@ -2593,7 +2603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 144,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Admin\\Pages\\Role\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Pages\\Role\\Delete.cshtml.cs",
@@ -2605,7 +2615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 145,
               "Title": "20240329040835_updateIdentityUser_V2.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240329040835_updateIdentityUser_V2.cs",
               "RelativeDocumentMoniker": "Migrations\\20240329040835_updateIdentityUser_V2.cs",
@@ -2617,7 +2627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 146,
               "Title": "20240329024238_updateIdentityUser.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240329024238_updateIdentityUser.cs",
               "RelativeDocumentMoniker": "Migrations\\20240329024238_updateIdentityUser.cs",
@@ -2629,7 +2639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 147,
               "Title": "20240415150146_updateIdentityUser_V3.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240415150146_updateIdentityUser_V3.cs",
               "RelativeDocumentMoniker": "Migrations\\20240415150146_updateIdentityUser_V3.cs",
@@ -2641,7 +2651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 149,
               "Title": "ExternalLogins.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
@@ -2653,7 +2663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 150,
               "Title": "ExternalLogins.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml",
@@ -2665,7 +2675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 151,
               "Title": "PersonalData.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
@@ -2677,7 +2687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 148,
               "Title": "ExternalLogin.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
@@ -2689,7 +2699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 152,
               "Title": "Email.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
@@ -2701,7 +2711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 151,
+              "DocumentIndex": 153,
               "Title": "Email.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
@@ -2713,7 +2723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 152,
+              "DocumentIndex": 154,
               "Title": "20240411014930_Menu.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240411014930_Menu.cs",
               "RelativeDocumentMoniker": "Migrations\\20240411014930_Menu.cs",
@@ -2725,7 +2735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 153,
+              "DocumentIndex": 155,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
@@ -2737,7 +2747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 154,
+              "DocumentIndex": 156,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -2749,7 +2759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 155,
+              "DocumentIndex": 157,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -2761,7 +2771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 156,
+              "DocumentIndex": 158,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -2773,7 +2783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 157,
+              "DocumentIndex": 159,
               "Title": "20240329012149_addIdentity.Designer.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240329012149_addIdentity.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20240329012149_addIdentity.Designer.cs",
@@ -2785,7 +2795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 158,
+              "DocumentIndex": 160,
               "Title": "20240405025112_addOrder.Designer.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240405025112_addOrder.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20240405025112_addOrder.Designer.cs",
@@ -2797,7 +2807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 159,
+              "DocumentIndex": 161,
               "Title": "20240322021547_initDB.Designer.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240322021547_initDB.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20240322021547_initDB.Designer.cs",
@@ -2809,7 +2819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 160,
+              "DocumentIndex": 162,
               "Title": "20240329040835_updateIdentityUser_V2.Designer.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\Migrations\\20240329040835_updateIdentityUser_V2.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20240329040835_updateIdentityUser_V2.Designer.cs",

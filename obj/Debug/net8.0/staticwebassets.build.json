@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+VFpO/hJlrA5IQQOJGHStCswfM6/W6j6+Fg5oyDwx3I=",
+  "Hash": "p7rY3fI2dklnzsSjxslR7JqGt8wk2+uCL7zTE+FiFOg=",
   "Source": "DACS-DAMH",
   "BasePath": "_content/DACS-DAMH",
   "Mode": "Default",
@@ -2867,12 +2867,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\multiple-select\\multiple-select.png"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\vendor\\fontawesome-free\\package.json",
+      "Identity": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\vendor\\fontawesome-free\\package-lock.json",
       "SourceId": "DACS-DAMH",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\",
       "BasePath": "_content/DACS-DAMH",
-      "RelativePath": "vendor/fontawesome-free/package.json",
+      "RelativePath": "vendor/fontawesome-free/package-lock.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2881,9 +2881,9 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\vendor\\fontawesome-free\\package.json"
+      "OriginalItemSpec": "wwwroot\\vendor\\fontawesome-free\\package-lock.json"
     }
   ]
 }

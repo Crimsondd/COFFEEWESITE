@@ -357,8 +357,8 @@
       "PackagePath": "staticwebassets\\lib\\multiple-select\\multiple-select.png"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\vendor\\fontawesome-free\\package.json",
-      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\package.json"
+      "Id": "C:\\Users\\pc\\Desktop\\memaybeo\\DACS-DAMH\\wwwroot\\vendor\\fontawesome-free\\package-lock.json",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\package-lock.json"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DACS-DAMH.Microsoft.AspNetCore.StaticWebAssets.props",
