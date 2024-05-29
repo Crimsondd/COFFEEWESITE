@@ -1,6 +1,6 @@
 ﻿@page
 @model RegisterModel
-@{
+@* @{
     ViewData["Title"] = "Register";
 }
 
@@ -57,6 +57,74 @@
         </section>
     </div>
 </div>
+ *@
+
+<div class="form-container sign-in-container">
+
+    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+        <h2>Tạo tài khoản mới</h2>
+        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+        <div class="form-floating mb-3">
+            <input asp-for="Input.FullName" class="form-control" autocomplete="name" aria-required="true" placeholder="name@123" />
+            <span asp-validation-for="Input.FullName" class="text-danger"></span>
+        </div>
+        <div class="form-floating mb-3">
+            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+        </div>
+        <div class="form-floating mb-3">
+            <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+        </div>
+        <div class="form-floating mb-3">
+            <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+        </div>
+        <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Đăng ký</button>
+    </form>
+
+    <span>Hoặc đăng ký bằng tài khoản khác</span>
+    <section>
+        @if ((Model.ExternalLogins?.Count ?? 0) != 0)
+        {
+            <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                <p>
+                    @foreach (var provider in Model.ExternalLogins)
+                    {
+
+                        if (@provider.DisplayName == "Google")
+                        {
+                            <button type="submit" class="btn social" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">
+                                <i class="fab fa-google-plus-g"></i>
+                            </button>
+                        }
+                        else
+                        {
+                            <button type="submit" class="btn social" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">
+                                <i class="fab fa-facebook-f"></i>
+                            </button>
+                        }
+
+                    }
+                </p>
+            </form>
+
+        }
+    </section>
+
+
+</div>
+
+<div class="overlay-container">
+    <div class="overlay">
+        <div class="overlay-panel overlay-right">
+            <h1>Welcome Back!</h1>
+            <p>To keep connected with us please login with your personal info</p>
+            <button class="ghost" id="login" type="button" onclick="location.href='@Url.Page("/Account/Login", new { area = "Identity" })'">Sign In</button>
+        </div>
+    </div>
+</div>
+
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

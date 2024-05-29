@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace DACS_DAMH.Models
 {
@@ -13,6 +14,7 @@ namespace DACS_DAMH.Models
         public string? ImageUrl { get; set; }
         public List<ProductImage>? Images { get; set; }
         public int CategoryId { get; set; }
+        public int Key { get; set; }
         public Category? Category { get; set; }
     }
 }

@@ -1,18 +1,8 @@
 ﻿@{
-    if (User.IsInRole("Admin"))
-    {
-        Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
-    }
-    if (User.IsInRole("Employer"))
-    {
-        Layout = "~/Areas/Employer/Views/Shared/_Layout.cshtml";
-    }
-    else
-    {
-        Layout = "~/Views/Shared/_Layout.cshtml";
-    }
 
+    Layout = "~/Views/Shared/_Layout2.cshtml";
 }
+
 
 <h2>QUẢN LÝ TÀI KHOẢN</h2>
 

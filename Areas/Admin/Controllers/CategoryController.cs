@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DACS_DAMH.Models;
+using DACS_DAMH.Repository;
 
 namespace DACS_DAMH.Areas.Admin.Controllers
 {
@@ -11,18 +12,21 @@ namespace DACS_DAMH.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
         private readonly ApplicationDbContext _context;
-        public CategoryController(ApplicationDbContext context)
+        private readonly ICategoryRepository _categoryRepository;
+        public CategoryController(ApplicationDbContext context, ICategoryRepository categoryRepository)
         {
             _context = context;
+            _categoryRepository = categoryRepository;
         }
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = await _context.Categories.ToListAsync();
             return View(applicationDbContext);
         }
-        public IActionResult Create()
-        {
-            ViewData["Id"] = new SelectList(_context.Categories, "Id", "Name");
+        public async Task<IActionResult> CreateAsync()
+        {            
+            var categories = await _categoryRepository.GetAllAsync();
+            ViewBag.Categories = new SelectList(categories, "Id", "Name");
             return View();
         }
         [HttpPost]
@@ -36,6 +40,7 @@ namespace DACS_DAMH.Areas.Admin.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["Id"] = new SelectList(_context.Categories, "Id", "Name", category.Id);
+            
             return View(category);
         }
         public async Task<IActionResult> Edit(int? id)
@@ -51,6 +56,8 @@ namespace DACS_DAMH.Areas.Admin.Controllers
                 return NotFound();
             }
             ViewData["Id"] = new SelectList(_context.Categories, "Id", "Name", category.Id);
+            var categories = await _categoryRepository.GetAllAsync();
+            ViewBag.Categories = new SelectList(categories, "Id", "Name", category.ParentId);
             return View(category);
         }
 
@@ -59,7 +66,7 @@ namespace DACS_DAMH.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Price,Description,ImageUrl,CategoryId")] Category category)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,ParentId")] Category category)
         {
             if (id != category.Id)
             {

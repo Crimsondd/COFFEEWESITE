@@ -867,7 +867,6 @@ C:\Users\pc\Desktop\memaybeo\DACS-DAMH\obj\Debug\net8.0\staticwebassets\msbuild.
 C:\Users\pc\Desktop\memaybeo\DACS-DAMH\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DACS-DAMH.props
 C:\Users\pc\Desktop\memaybeo\DACS-DAMH\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\pc\Desktop\memaybeo\DACS-DAMH\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\pc\Desktop\memaybeo\DACS-DAMH\obj\Debug\net8.0\scopedcss\Areas\Employer\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\pc\Desktop\memaybeo\DACS-DAMH\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\pc\Desktop\memaybeo\DACS-DAMH\obj\Debug\net8.0\scopedcss\bundle\DACS-DAMH.styles.css
 C:\Users\pc\Desktop\memaybeo\DACS-DAMH\obj\Debug\net8.0\scopedcss\projectbundle\DACS-DAMH.bundle.scp.css
@@ -881,3 +880,4 @@ C:\Users\pc\Desktop\memaybeo\DACS-DAMH\bin\Debug\net8.0\X.PagedList.dll
 C:\Users\pc\Desktop\memaybeo\DACS-DAMH\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
 C:\Users\pc\Desktop\memaybeo\DACS-DAMH\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout2.cshtml.rz.scp.css
 C:\Users\pc\Desktop\memaybeo\DACS-DAMH\obj\Debug\net8.0\DACS-DAMH.sourcelink.json
+C:\Users\pc\Desktop\memaybeo\DACS-DAMH\bin\Debug\net8.0\CurrieTechnologies.Razor.SweetAlert2.dll

@@ -3,12 +3,15 @@ using Microsoft.EntityFrameworkCore;
 using DACS_DAMH.Models;
 using System.Configuration;
 using DACS_DAMH.Repository;
+using CurrieTechnologies.Razor.SweetAlert2;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var Configuration = builder.Configuration;
 
+builder.Services.AddScoped<INavigationService, NavigationService>();
 // Add services to the container.
+builder.Services.AddSweetAlert2();
 
 builder.Services.AddControllersWithViews();
 // Đặt trước AddControllersWithViews();
@@ -95,16 +98,6 @@ app.UseEndpoints(endpoints =>
     _ = endpoints.MapControllerRoute(
         name: "areas",
         pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
-
-    //_ = endpoints.MapAreaControllerRoute(
-    //   name: "Employer",
-    //    areaName: "Employer",
-    //    pattern: "Employer/{controller=Home}/{action=Index}/{id?}");
-
-    //_ = endpoints.MapAreaControllerRoute(
-    //   name: "Visitor",
-    //    areaName: "Visitor",
-    //    pattern: "Visitor/{controller=Home}/{action=Index}/{id?}");
 
     _ = endpoints.MapControllerRoute(
         name: "default",

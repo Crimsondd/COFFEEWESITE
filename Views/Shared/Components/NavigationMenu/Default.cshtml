@@ -1,0 +1,27 @@
+﻿@model IEnumerable<NavigationItemViewModel>
+@* <div class="collection_menu_wrap">
+    <div class="container">
+        <div class="row"> *@
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 stikySidebar">
+    <aside class="sidebar_menu">
+        <ul class="hidden-sm hidden-xs" style="position: sticky;">
+            <li class="menu_dropdown">
+                <a asp-area="" asp-controller="Menu" asp-action="Index" >
+                    Tất Cả
+                </a>
+            </li>
+                       
+            @foreach (var item in Model)
+            {
+                <partial name="_SubMenuItem" model="item" />
+            }
+                        
+        </ul>
+    </aside>
+</div>
+@*         </div>
+    </div>
+</div>
+ *@
+
+

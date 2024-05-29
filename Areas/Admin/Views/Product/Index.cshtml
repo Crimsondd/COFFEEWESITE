@@ -25,7 +25,7 @@
         {
             <tr>
                 <td>@product.Name</td>
-                <td>@product.Price.ToString("C", new CultureInfo("vi-VN"))</td>
+                <td>@product.Price.ToString("#,0 đ", new CultureInfo("vi-VN"))</td>
                 <td>@product.Description</td>
                 <td>@Html.DisplayFor(modelItem => product.Category.Name) </td>
                 <td><img src="@product.ImageUrl" alt="Product Image" class="img-fluid" style="max-width:200px;" id="previewImage" /></td>

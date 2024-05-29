@@ -1,21 +1,211 @@
-﻿
-@model DACS_DAMH.Models.Product;
+﻿@model DACS_DAMH.Models.ProductDetailsViewModel;
 @{
     ViewData["Title"] = "Details";
     Layout = "~/Views/Shared/_Layout2.cshtml";
 }
 
-<h2>@Model.Name</h2>
-<div class="row product-details">
+<div class="row product-details" style="font-size:100%">
     <div class="col-md-6 product-image">
-        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        @if (!string.IsNullOrEmpty(Model.Product.ImageUrl))
         {
-            <img src="@Model.ImageUrl" alt="Product Image" class="img-fluid" />
+            <img src="@Model.Product.ImageUrl" alt="Product Image" class="img-fluid" style="border-radius: 5%;" />
         }
     </div>
     <div class="col-md-6 product-info">
-        <h3>Price: @Model.Price.ToString("C", new CultureInfo("vi-VN"))</h3>  <p>@Model.Description</p>
-        <a asp-area="" asp-controller="Home" class="btn btn-primary btn-sm" asp-action="Index">Back to List</a>
+        <p class="info_product_title" style="font-size: 26px;font-weight: bold;">@Model.Product.Name</p>
+        <div class="info_product_price">
+            <span class="price" id="productprice" style="font-size: 26px;color: #E57905;">@Model.Product.Price.ToString("#,0 đ", new CultureInfo("vi-VN"))</span>
+        </div>
+        </br>
+        <div class="option_sizes">
+            <p class="option_title">Chọn size (bắt buộc)</p>
+            <div class="product_options" style="display: flex; gap: 4px;">
+                @if (Model.Product.Key == 1 || Model.Product.Key == 2)
+                {
+                    foreach (var size in Model.Sizes.Where(s => s.Name == "Nhỏ" || s.Name == "Vừa"))
+                    {
+                        <div class="size-option" style="flex: 0.5; padding: 4px; border: 1px solid #ddd; border-radius: 5px;">
+                            <button data-price=@size.AddPrice data-size=@size.Name onclick="updatePrice(this)" style="width: 100%; padding: 10px; background-color: #fff; border: none; border-radius: 5px; cursor: pointer;">
+                                @size.Name + @size.AddPrice.ToString("#,0 đ", new CultureInfo("vi-VN"))
+                            </button>
+                        </div>
+                    }
+
+                }
+                @if (Model.Product.Key == 2)
+                {
+                    foreach (var size in Model.Sizes.Where(s => s.Name == "Lớn"))
+                    {
+                        <div class="size-option" style="flex: 0.5; padding: 4px; border: 1px solid #ddd; border-radius: 5px;">
+                            <button data-price=@size.AddPrice data-size=@size.Name onclick="updatePrice(this)" style="width: 100%; padding: 10px; background-color: #fff; border: none; border-radius: 5px; cursor: pointer;">
+                                @size.Name + @size.AddPrice.ToString("#,0 đ", new CultureInfo("vi-VN"))
+                            </button>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+        <div class="option_toppings">
+            <p class="option_title">Chọn Topping (tuỳ chọn)</p>
+            <div class="product_options" style="display: flex; gap: 4px; flex-wrap: wrap;">
+                @foreach (var topping in Model.Toppings)
+                {
+                    <div class="topping-option" style="flex: 0.5; padding: 4px; border: 1px solid #ddd; border-radius: 5px;">
+                        <button data-price="@topping.PriceTp" data-topping="@topping.Id" onclick="updatePriceWithTopping(this)" style="width: 100%; padding: 10px; background-color: #fff; border: none; border-radius: 5px; cursor: pointer;">
+                            @topping.Name <br />
+                            + @topping.PriceTp.ToString("#,0 đ", new CultureInfo("vi-VN"))
+                        </button>
+                    </div>
+                }
+            </div>
+        </div>
+        <br />
+
+
+        <form id="add-to-cart-form" action="@Url.Action("AddToCart", "ShoppingCart")" method="post">
+            <button type="button" class="add-to-cart-btn btn btn-lg btn-warning" onclick="addToCartWithUpdatedPrice()" id="addToCartBtn">
+                <i class="bi bi-cart-plus-fill" style="font-size: 2em;"> ĐẶT HÀNG </i>
+            </button>
+        </form>
+    </div>
+    <div class="row" style="padding-top:10px">
+        <h4> Mô tả sản phẩm </h4>
+        <p>@Model.Product.Description</p>
     </div>
 </div>
+
+<script>
+    let updatedPrice = 0;
+    let selectedSize = "Nhỏ";
+    let updatedSizePrice = 0;
+    let selectedToppingId = 0;
+    let selectedToppingPrice = 0;
+    let productId = @Model.Product.Id;
+
+    function updatePrice(button) {
+        // Kiểm tra xem nút được chọn hay không
+        var isSelected = button.classList.contains("active");
+
+        // Loại bỏ lớp active từ tất cả các nút khác
+        const otherButtons = document.querySelectorAll(".size-option button");
+        otherButtons.forEach(b => {
+            if (b !== button) {
+                b.classList.remove("active");
+                b.style.backgroundColor = '#f0f0f0';
+            }
+        });
+
+        // Nếu nút chưa được chọn trước đó, thêm lớp active và cập nhật kích thước đã chọn và giá
+        if (!isSelected) {
+            button.classList.add("active");
+            selectedSize = button.getAttribute('data-size');
+            updatedSizePrice = parseInt(button.dataset.price, 10);
+            button.style.backgroundColor = '#e57905';
+
+        } else {
+            // Nếu nút đã được chọn trước đó, loại bỏ lớp active và đặt kích thước đã chọn và giá về 0
+            button.classList.remove("active");
+            selectedSize = "Nhỏ";
+            updatedSizePrice = 0;
+            button.style.backgroundColor = '#f0f0f0';
+        }
+
+        // Sau đó, cập nhật giá cuối cùng
+        updateFinalPrice();
+    }
+
+    function updatePriceWithTopping(button) {
+        var isSelected = button.classList.contains("active");
+        const toppingButtons = document.querySelectorAll(".topping-option button");
+        toppingButtons.forEach(b => {
+            if (b !== button) {
+                b.classList.remove("active");
+                b.style.backgroundColor = '#f0f0f0';
+            }
+        });
+
+        // Nếu nút không được chọn trước đó, thêm lớp active và cập nhật topping đã chọn
+        if (!isSelected) {
+            button.classList.add("active");
+            selectedToppingId = button.getAttribute('data-topping');
+            selectedToppingPrice = parseInt(button.dataset.price, 10);
+            button.style.backgroundColor = '#e57905';
+        } else {
+            // Nếu nút đã được chọn trước đó, bỏ chọn và cập nhật topping đã chọn thành trống
+            button.classList.remove("active");
+            selectedToppingId = 0;
+            selectedToppingPrice = 0;
+            button.style.backgroundColor = '#f0f0f0';
+        }
+
+        updateFinalPrice();
+    }
+
+    function updateFinalPrice() {
+
+        $.ajax({
+            type: 'GET',
+            url: '@Url.Action("GetUpdatedPrice", "Product")',
+            data: { productId: productId, sizePrice: updatedSizePrice, toppingId: selectedToppingId },
+            success: function (data) {
+                var formattedPrice = data.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
+                $('.price').text(formattedPrice);
+                $('#price-in-button').text(formattedPrice);
+            },
+            error: function () {
+                console.error('Đã có lỗi khi cập nhật giá.');
+            }
+        });
+    }
+
+
+    function addToCartWithUpdatedPrice() {
+        // if (selectedSize === "") {
+        //     alert("Vui lòng chọn size sản phẩm trước khi đặt hàng.");
+        //     return;
+        // }
+
+        // Send the data using an AJAX POST request
+        $.ajax({
+            url: '@Url.Action("AddToCart", "ShoppingCart")',
+            type: 'POST',
+            data: { productId: productId, quantity: 1, updatedPrice: updatedSizePrice + selectedToppingPrice, size: selectedSize, toppingId: selectedToppingId },
+            success: function (data) {
+                if (data && data.success && data.data) {
+                    $("#badge-cart").html(data.data);
+                }
+                Swal.fire({
+                    position: "center",
+                    icon: "success",
+                    title: "Sản phẩm đã được thêm vào giỏ hàng.",
+                    showConfirmButton: false,
+                    timer: 1500,
+
+                });
+            },
+            error: function () {
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: "Vui lòng đăng nhập để tiếp tục!",
+                    heightAuto: true
+
+                });
+            }
+
+        });
+
+        // $.post('@Url.Action("AddToCart", "ShoppingCart")', {
+        //     productId: productId,
+        //     quantity: 1,
+        //     updatedPrice: updatedSizePrice + selectedToppingPrice,
+        //     size: selectedSize,
+        //     toppingId: selectedToppingId
+        // }).done(function (response) {
+        //     alert(response.message);
+        // }).fail(function (error) {
+        //     alert('Đã xảy ra lỗi khi thêm sản phẩm vào giỏ hàng.');
+        // });
+    }
+</script>
 

@@ -4,6 +4,7 @@ using DACS_DAMH.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Permissions;
 using DACS_DAMH.Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace DACS_DAMH.Areas.Admin.Controllers
 {

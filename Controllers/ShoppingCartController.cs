@@ -12,7 +12,7 @@ using DACS_DAMH.Repository;
 
 namespace DACS_DAMH.Controllers
 {
-    [Authorize]   
+    //[Authorize]   
     public class ShoppingCartController : Controller
     {
         private readonly IProductRepository _productRepository;
@@ -25,36 +25,50 @@ namespace DACS_DAMH.Controllers
             _context = context;
             _userManager = userManager;
         }
-        
-        public async Task<IActionResult> AddToCart(int productId, int quantity)
+        public IActionResult test1()
+        {
+            return View();
+        }
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> AddToCart(int productId, int quantity, int updatedPrice, string size, int toppingId)
         {
             try
             {
                 var product = await GetProductFromDatabase(productId);
+                if (product == null)
+                {
+                    return BadRequest(new { success = false, message = "Sản phẩm không tồn tại." });
+                }
+
+                // Truy vấn cơ sở dữ liệu để lấy thông tin về Topping dựa trên ToppingId
+                var topping = await _context.Toppings.FirstOrDefaultAsync(t => t.Id == toppingId);
+
+                string toppingName = topping != null ? topping.Name : "Không chọn";
+
+                // Tính toán giá dựa trên giá gốc, giá của size và giá của Topping (nếu có)
+                var finalPrice = product.Price + updatedPrice;
+
                 var cartItem = new CartItem
                 {
                     ProductId = productId,
-                    Name = product.Name,
-                    Price = product.Price,
-                    Quantity = quantity
+                    Name = product.Name + " - " + size + " - " + toppingName, // Tên sản phẩm bao gồm cả thông tin về size và Topping
+                    Price = finalPrice,
+                    Quantity = quantity,
+                    Size = size,
+                    ToppingId = toppingId
                 };
+
                 var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
                 cart.AddItem(cartItem);
                 HttpContext.Session.SetObjectAsJson("Cart", cart);
 
-                // Trả về một phản hồi JSON thành công
-                return Ok (new { success = true, message = "Sản phẩm đã được thêm  vào giỏ hàng.", data = cart.Items.Count() });
-
-
+                return Ok(new { success = true, message = "Sản phẩm đã được thêm vào giỏ hàng.", data = cart.Items.Count() });
             }
             catch (Exception ex)
             {
-                // Trả về một phản hồi JSON lỗi nếu có lỗi xảy ra
-                return BadRequest(new { success = false, message = "Đã xảy ra lỗi  khi thêm sản phẩm vào giỏ hàng.", error = ex.Message });
-
+                return BadRequest(new { success = false, message = "Đã xảy ra lỗi khi thêm sản phẩm vào giỏ hàng.", error = ex.Message });
             }
-
-
         }
 
         public IActionResult IndexAJAX()
@@ -101,6 +115,30 @@ namespace DACS_DAMH.Controllers
             }
             return RedirectToAction("Index");
         }
+
+        [HttpPost]
+        public IActionResult Addsize(int productId, string sizeName)
+        {
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+            if (cart != null)
+            {
+                cart.Addsize(productId, sizeName);
+                HttpContext.Session.SetObjectAsJson("Cart", cart);
+            }
+            return RedirectToAction("Index");
+        }
+
+        //[HttpPost]
+        //public IActionResult UpdateSize(int productId, int size)
+        //{
+        //    var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+        //    if (cart != null)
+        //    {
+        //        cart.UpdateQuantity(productId, size);
+        //        HttpContext.Session.SetObjectAsJson("Cart", cart);
+        //    }
+        //    return RedirectToAction("Index");
+        //}
 
         public IActionResult RemoveFromCart(int productId)
         {
@@ -151,7 +189,8 @@ namespace DACS_DAMH.Controllers
             {
                 ProductId = i.ProductId,
                 Quantity = i.Quantity,
-                Price = i.Price
+                Price = i.Price,
+
             }).ToList();
 
             _context.Orders.Add(order);
@@ -195,8 +234,9 @@ namespace DACS_DAMH.Controllers
         // xac nhan khuyen mai
         // 
         //[HttpGet]
-        //public IActionResult VerifyVoucher(int totalMOMO, double giaCuoiCung, string? voucherCode)
+        //public IActionResult VerifyVoucher(int totalMOMO, int giaCuoiCung, string? voucherCode)
         //{
+            
         //    if (voucherCode == null)
         //    {
         //        ViewData["FinalPrice"] = giaCuoiCung;
@@ -204,13 +244,13 @@ namespace DACS_DAMH.Controllers
         //    }
         //    else if (totalMOMO == giaCuoiCung)
         //    {
-        //        ViewData["thongBao"] = "Rất tiếc. Voucher này đã hết hạn hoặc không tồn tại😣😣";
+                
         //        ViewData["FinalPrice"] = giaCuoiCung;
 
         //    }
         //    else
         //    {
-        //        ViewData["thongBao"] = "Chúc mừng. Bạn đã áp dụng Voucher thành công😍😍";
+                
         //        ViewData["FinalPrice"] = giaCuoiCung;
 
         //    }
@@ -220,32 +260,34 @@ namespace DACS_DAMH.Controllers
         public IActionResult VerifyVoucher(int totalMOMO, string? voucherCode)
         {
             int giaCuoiCung = 0;
-
+            int giaDuocGiam = 0;            
             var voucher = _context.Discounts.FirstOrDefault(d => d.Code == voucherCode && d.Expdate > DateTime.Now);
             if (voucher != null)
             {
                 if (voucher.Remain == 0)
                 {
+                    TempData["voucher"] = " Mã Voucher không khả dụng";
                     giaCuoiCung = totalMOMO;
                 }
                 else
                 {
-
                     TempData["voucher"] = "Áp dụng thành công";
                     voucher.Remain -= 1;
-                    int giaDuocGiam = (int)(totalMOMO * (voucher.Percentage / 100));
+                    giaDuocGiam = (int)(totalMOMO * (voucher.Percentage / 100));
                     giaCuoiCung = totalMOMO - giaDuocGiam;
-                    TempData["Totalprice"] = giaCuoiCung;
                     _context.Update(voucher);
-                    _context.SaveChanges();
-                    return RedirectToAction("Index");
+                    _context.SaveChanges();                    
                 }
+                TempData["VoucherPrice"] = giaDuocGiam;
+                TempData["FinalPrice"] = giaCuoiCung;
             }
             else
             {
                 giaCuoiCung = totalMOMO;
+                TempData["FinalPrice"] = giaCuoiCung;
 
             }
+            
             return RedirectToAction("Index"); // Redirect đến action để hiển thị thông báo
         }
 

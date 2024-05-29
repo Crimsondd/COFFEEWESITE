@@ -8,8 +8,10 @@ namespace DACS_DAMH.Models
         public int Id { get; set; }
         public string UserId { get; set; }
         public DateTime OrderDate { get; set; }
+
         public decimal TotalPrice { get; set; }
         public string ShippingAddress { get; set; }
+        public int Numberphone { get; set; }
         public string? Notes { get; set; }
         [ForeignKey("UserId")]
         [ValidateNever]

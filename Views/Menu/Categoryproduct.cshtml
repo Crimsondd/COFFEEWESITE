@@ -1,0 +1,48 @@
+﻿@model IEnumerable<DACS_DAMH.Models.CategoryProducts>
+@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+<div class="collection_menu_wrap">
+    <div class="container">
+        <div class="row">
+            @await Component.InvokeAsync("NavigationMenu")
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 border_right_before">
+                <div class="row">
+                    @foreach (var categoryGroup in Model)
+                    {
+                        <h1 style="color:black;padding-bottom:10px">@categoryGroup.CategoryName</h1>
+
+                        <div class="menu_list_home flex_wrap display_flex">
+                            @foreach (var item in categoryGroup.Products)
+                            {
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a asp-controller="Product" asp-action="Details" asp-route-id="@item.Id" title="@Html.DisplayFor(modelItem => item.Name)">
+                                            <img class="ls-is-cached lazyloaded" src="@item.ImageUrl" alt="@item.Name">
+                                        </a>
+                                        <ul class="labels">
+                                        </ul>
+                                    </div>
+                                    <div class="menu_item_info">
+                                        <div class="row">
+                                            <div class="col-sm">
+                                                <h3>
+                                                    <a asp-controller="Product" asp-action="Details" asp-route-id="@item.Id" title="@Html.DisplayFor(modelItem => item.Name)">
+                                                        @Html.DisplayFor(modelItem => item.Name)
+                                                    </a>
+                                                </h3>
+                                                <div class="price_product_item" style="color:red">@item.Price.ToString("#,##0") đ</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

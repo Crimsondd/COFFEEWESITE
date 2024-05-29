@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DACS-DAMH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+334bc7e38d83fdff328f9b6fe3784bfc53eb2b3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cada583f42a43b5f5b6a2698e64305f736e0f5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DACS-DAMH")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DACS-DAMH")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

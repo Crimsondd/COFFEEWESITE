@@ -18,7 +18,9 @@ else
             <tr>
                 <th>Ngày đặt hàng</th>
                 <th>Tổng tiền</th>
-                <th>Chi tiết đơn hàng</th>
+                <th>Thông tin đơn hàng</th>
+                <th>Địa chỉ nhận hàng và số điện thoại người nhận</th>
+                <th>Ghi chú</th>
             </tr>
         </thead>
         <tbody>
@@ -26,15 +28,25 @@ else
             {
                 <tr>
                     <td>@order.OrderDate.ToString("dd/MM/yyyy")</td>
-                    <td>@order.TotalPrice.ToString("C")</td>
+                    <td>@order.TotalPrice.ToString("#,0 đ")</td>
                     <td>
-                        <ul>
-                            @foreach (var orderDetail in order.OrderDetails)
-                            {
-                                <li>@orderDetail.Product.Name - Số lượng: @orderDetail.Quantity - Giá: @orderDetail.Price.ToString("C")</li>
-                            }
-                        </ul>
+                        
+                        @foreach (var orderDetail in order.OrderDetails)
+                        {
+                            <li>@orderDetail.Product.Name - Số lượng: @orderDetail.Quantity - Size: @orderDetail.Size - Giá: @orderDetail.Price.ToString("#,0 đ")</li>
+                        }
+                        
                     </td>
+                    <td>
+                        <li>
+                            @order.ShippingAddress
+                        </li>
+                        <li>
+                            Sdt: @order.Numberphone
+                        </li>
+                        
+                    </td>
+                    <td>@order.Notes</td>
                 </tr>
             }
         </tbody>

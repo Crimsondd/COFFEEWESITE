@@ -1,0 +1,30 @@
+﻿@model NavigationItemViewModel
+
+@* <li>
+    <a href="@Model.Url">@Model.Name</a>
+    @if (Model.HasChildren)
+    {
+        <ul>
+            @foreach (var childItem in Model.Children)
+            {
+                <partial name="_SubMenuItem" model="childItem" />
+            }
+        </ul>
+    }
+</li> *@
+
+<li class="menu_dropdown">
+    <a href="@Model.Url">@Model.Name</a>
+
+    @if (Model.HasChildren)
+    {
+        <ul class="menu_lv2">
+            @foreach (var childItem in Model.Children)
+            {
+               
+                <partial name="_SubMenuItem" model="childItem" />
+                
+            }
+        </ul>
+    }
+</li>

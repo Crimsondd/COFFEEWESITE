@@ -14,6 +14,7 @@
         <tr>
             <th>Id</th>
             <th>Name</th>
+            <th>ParentCate</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -26,6 +27,13 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @foreach(var parent in Model)
+                    {
+                        if (item.ParentId == parent.Id)
+                            @Html.DisplayFor(modelItem => parent.Name)
+                    }
                 </td>
                 <td>
                     <a class="btn btn-success btn-sm" asp-action="Edit" asp-route-id="@item.Id">Update</a>

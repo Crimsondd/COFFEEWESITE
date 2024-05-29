@@ -4,7 +4,7 @@
     {
         //danh sách các sản phẩm trong giỏ hàng
         public List<CartItem> Items { get; set; } = new List<CartItem>();
-        
+
 
         // Tổng giá tiền của các sản phẩm trong giỏ hàng
         public int TotalPrice => Items.Sum(item => item.Price * item.Quantity);
@@ -12,8 +12,9 @@
         //các hàm thêm/ xóa sản phẩm trong giỏ hàng
         public void AddItem(CartItem item)
         {
-            //tìm xem sản phẩm đã có trong giỏ hàng chưa
-            var existingItem = Items.FirstOrDefault(i => i.ProductId ==item.ProductId);
+            // Kiểm tra xem sản phẩm đã có trong giỏ hàng chưa
+            var existingItem = Items.FirstOrDefault(i => i.ProductId == item.ProductId && i.Size == item.Size && i.ToppingId == item.ToppingId);
+
             if (existingItem != null)//nếu sp đã có trong giỏ hàng
             {
                 existingItem.Quantity += item.Quantity;//cập nhật số lượng
@@ -48,6 +49,17 @@
                 {
                     RemoveItem(productId);
                 }
+            }
+        }
+
+        public void Addsize(int productId, string sizeName)
+        {
+            var item = Items.FirstOrDefault(i => i.ProductId == productId);
+            if (item != null)
+            {
+
+                item.Size = sizeName;
+
             }
         }
     }
