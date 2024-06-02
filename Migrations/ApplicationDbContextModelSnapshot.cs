@@ -207,8 +207,10 @@ namespace DACS_DAMH.Migrations
                     b.Property<string>("Notes")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Numberphone")
-                        .HasColumnType("int");
+                    b.Property<string>("Numberphone")
+                        .IsRequired()
+                        .HasMaxLength(11)
+                        .HasColumnType("nvarchar(11)");
 
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
@@ -290,6 +292,9 @@ namespace DACS_DAMH.Migrations
                     b.Property<int>("Key")
                         .HasColumnType("int");
 
+                    b.Property<int>("KeyTp")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -360,8 +365,8 @@ namespace DACS_DAMH.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("PriceTp")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("PriceTp")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -537,13 +542,13 @@ namespace DACS_DAMH.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DACS_DAMH.Models.Size", "Size")
+                    b.HasOne("DACS_DAMH.Models.Size", "size")
                         .WithMany()
                         .HasForeignKey("SizeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DACS_DAMH.Models.Topping", "Topping")
+                    b.HasOne("DACS_DAMH.Models.Topping", "topping")
                         .WithMany("OrderDetails")
                         .HasForeignKey("ToppingId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -553,9 +558,9 @@ namespace DACS_DAMH.Migrations
 
                     b.Navigation("Product");
 
-                    b.Navigation("Size");
+                    b.Navigation("size");
 
-                    b.Navigation("Topping");
+                    b.Navigation("topping");
                 });
 
             modelBuilder.Entity("DACS_DAMH.Models.Product", b =>

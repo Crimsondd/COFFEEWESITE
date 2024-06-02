@@ -37,6 +37,14 @@ namespace DACS_DAMH.Repository
             await _context.SaveChangesAsync();
         }
 
-        
+        public async Task<IEnumerable<Discount>> SearchAsync(int searchTerm)
+        {
+            var discounts = await _context.Discounts
+                .Where(p => p.IdDiscount == searchTerm)
+                .ToListAsync();
+
+            return discounts;
+        }
+
     }
 }

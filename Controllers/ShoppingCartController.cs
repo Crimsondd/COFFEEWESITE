@@ -16,14 +16,16 @@ namespace DACS_DAMH.Controllers
     public class ShoppingCartController : Controller
     {
         private readonly IProductRepository _productRepository;
+        private readonly IOrderRepository _orderRepository;
         private readonly ApplicationDbContext _context;
         //quản lý đăng nhập người dùng
         private readonly UserManager<ApplicationUser> _userManager;
-        public ShoppingCartController(IProductRepository productRepository, ApplicationDbContext context, UserManager<ApplicationUser> userManager)
+        public ShoppingCartController(IProductRepository productRepository, ApplicationDbContext context, UserManager<ApplicationUser> userManager, IOrderRepository orderRepository)
         {
             _productRepository = productRepository;
             _context = context;
             _userManager = userManager;
+            _orderRepository = orderRepository;
         }
         public IActionResult test1()
         {
@@ -31,7 +33,7 @@ namespace DACS_DAMH.Controllers
         }
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> AddToCart(int productId, int quantity, int updatedPrice, string size, int toppingId)
+        public async Task<IActionResult> AddToCart(int productId, int quantity, int updatedPrice, int sizeId, int toppingId)
         {
             try
             {
@@ -44,7 +46,11 @@ namespace DACS_DAMH.Controllers
                 // Truy vấn cơ sở dữ liệu để lấy thông tin về Topping dựa trên ToppingId
                 var topping = await _context.Toppings.FirstOrDefaultAsync(t => t.Id == toppingId);
 
+                var size = await _context.Sizes.FirstOrDefaultAsync(s => s.Id == sizeId);
+
                 string toppingName = topping != null ? topping.Name : "Không chọn";
+
+                string sizename = size != null ? size.Name : "Nhỏ";
 
                 // Tính toán giá dựa trên giá gốc, giá của size và giá của Topping (nếu có)
                 var finalPrice = product.Price + updatedPrice;
@@ -52,10 +58,10 @@ namespace DACS_DAMH.Controllers
                 var cartItem = new CartItem
                 {
                     ProductId = productId,
-                    Name = product.Name + " - " + size + " - " + toppingName, // Tên sản phẩm bao gồm cả thông tin về size và Topping
+                    Name = product.Name + " - " + sizename + " - " + toppingName, // Tên sản phẩm bao gồm cả thông tin về size và Topping
                     Price = finalPrice,
                     Quantity = quantity,
-                    Size = size,
+                    SizeId = sizeId,
                     ToppingId = toppingId
                 };
 
@@ -111,18 +117,6 @@ namespace DACS_DAMH.Controllers
             if (cart != null)
             {
                 cart.UpdateQuantity(productId, newQuantity);
-                HttpContext.Session.SetObjectAsJson("Cart", cart);
-            }
-            return RedirectToAction("Index");
-        }
-
-        [HttpPost]
-        public IActionResult Addsize(int productId, string sizeName)
-        {
-            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
-            if (cart != null)
-            {
-                cart.Addsize(productId, sizeName);
                 HttpContext.Session.SetObjectAsJson("Cart", cart);
             }
             return RedirectToAction("Index");
@@ -190,6 +184,10 @@ namespace DACS_DAMH.Controllers
                 ProductId = i.ProductId,
                 Quantity = i.Quantity,
                 Price = i.Price,
+                ToppingId = i.ToppingId,
+                SizeId = i.SizeId
+
+
 
             }).ToList();
 
@@ -221,46 +219,21 @@ namespace DACS_DAMH.Controllers
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
             // Lấy lịch sử đơn hàng của người dùng từ cơ sở dữ liệu
-            var orders = await _context.Orders
-                                        .Include(o => o.OrderDetails)
-                                        .ThenInclude(od => od.Product)
-                                        .Where(o => o.UserId == userId)
-                                        .OrderByDescending(o => o.OrderDate)
-                                        .ToListAsync();
+            var orders = await _orderRepository.GetOrderByIdUserAsync(userId);
+
+            var sizes = await _context.Sizes.ToListAsync();
+
+            var toppings = await _context.Toppings.ToListAsync();
 
             return View(orders);
         }
 
-        // xac nhan khuyen mai
-        // 
-        //[HttpGet]
-        //public IActionResult VerifyVoucher(int totalMOMO, int giaCuoiCung, string? voucherCode)
-        //{
-            
-        //    if (voucherCode == null)
-        //    {
-        //        ViewData["FinalPrice"] = giaCuoiCung;
-
-        //    }
-        //    else if (totalMOMO == giaCuoiCung)
-        //    {
-                
-        //        ViewData["FinalPrice"] = giaCuoiCung;
-
-        //    }
-        //    else
-        //    {
-                
-        //        ViewData["FinalPrice"] = giaCuoiCung;
-
-        //    }
-        //    return View();
-        //}
         [HttpPost]
         public IActionResult VerifyVoucher(int totalMOMO, string? voucherCode)
         {
             int giaCuoiCung = 0;
-            int giaDuocGiam = 0;            
+            int giaDuocGiam = 0; 
+            
             var voucher = _context.Discounts.FirstOrDefault(d => d.Code == voucherCode && d.Expdate > DateTime.Now);
             if (voucher != null)
             {
@@ -285,6 +258,7 @@ namespace DACS_DAMH.Controllers
             {
                 giaCuoiCung = totalMOMO;
                 TempData["FinalPrice"] = giaCuoiCung;
+                TempData["voucher"] = " Mã Voucher không khả dụng";
 
             }
             

@@ -19,7 +19,10 @@
             </div>
             <div class="form-group">
                 <label asp-for="ParentId">ParentCate</label>
-                <select asp-for="ParentId" asp-items="ViewBag.Categories" class="form-control"></select>
+                <select asp-for="ParentId" asp-items="ViewBag.Categories" class="form-control">
+                    <option value="">Chọn danh mục</option>
+                </select>
+                
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

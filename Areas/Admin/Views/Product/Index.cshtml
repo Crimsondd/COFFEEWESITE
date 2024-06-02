@@ -4,20 +4,20 @@
     ViewData["Title"] = "Index";
 }
 
-<h2>List Of Products</h2>
+<h2>Danh sách sản phẩm</h2>
 
 <p>
-    <a class="btn btn-primary btn-sm" asp-action="Add">Create New</a>
+    <a class="btn btn-primary btn-sm" asp-action="Add">Tạo mới</a>
 </p>
 <table class="table table-striped table-bordered table-hover">
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Description</th>
-            <th>Cate</th>
-            <th>Image</th>
-            <th>Actions</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th>Mô tả</th>
+            <th>Loại</th>
+            <th>Hình ảnh</th>
+            <th>Tác vụ</th>
         </tr>
     </thead>
     <tbody>
@@ -30,9 +30,9 @@
                 <td>@Html.DisplayFor(modelItem => product.Category.Name) </td>
                 <td><img src="@product.ImageUrl" alt="Product Image" class="img-fluid" style="max-width:200px;" id="previewImage" /></td>
                 <td>
-                    <a class="btn btn-primary btn-sm" asp-action="Details" asp-route-id="@product.Id">Details</a>
-                    <a class="btn btn-success btn-sm" asp-action="Update" asp-route-id="@product.Id">Update</a>
-                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+                    <a class="btn btn-primary btn-sm" asp-action="Details" asp-route-id="@product.Id">Chi tiết</a>
+                    <a class="btn btn-success btn-sm" asp-action="Update" asp-route-id="@product.Id">Cập nhật</a>
+                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@product.Id">Xóa</a>
                 </td>
             </tr>
         }

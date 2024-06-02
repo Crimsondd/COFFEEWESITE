@@ -56,14 +56,14 @@ namespace DACS_DAMH.Areas.Admin.Controllers
                 return NotFound();
             }
             ViewData["Id"] = new SelectList(_context.Categories, "Id", "Name", category.Id);
+
             var categories = await _categoryRepository.GetAllAsync();
+
+            
             ViewBag.Categories = new SelectList(categories, "Id", "Name", category.ParentId);
             return View(category);
         }
 
-        // POST: Admin/Products/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,ParentId")] Category category)

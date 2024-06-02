@@ -25,7 +25,7 @@
                     foreach (var size in Model.Sizes.Where(s => s.Name == "Nhỏ" || s.Name == "Vừa"))
                     {
                         <div class="size-option" style="flex: 0.5; padding: 4px; border: 1px solid #ddd; border-radius: 5px;">
-                            <button data-price=@size.AddPrice data-size=@size.Name onclick="updatePrice(this)" style="width: 100%; padding: 10px; background-color: #fff; border: none; border-radius: 5px; cursor: pointer;">
+                            <button data-price=@size.AddPrice data-size=@size.Id onclick="updatePrice(this)" style="width: 100%; padding: 10px; background-color: #fff; border: none; border-radius: 5px; cursor: pointer;">
                                 @size.Name + @size.AddPrice.ToString("#,0 đ", new CultureInfo("vi-VN"))
                             </button>
                         </div>
@@ -37,7 +37,7 @@
                     foreach (var size in Model.Sizes.Where(s => s.Name == "Lớn"))
                     {
                         <div class="size-option" style="flex: 0.5; padding: 4px; border: 1px solid #ddd; border-radius: 5px;">
-                            <button data-price=@size.AddPrice data-size=@size.Name onclick="updatePrice(this)" style="width: 100%; padding: 10px; background-color: #fff; border: none; border-radius: 5px; cursor: pointer;">
+                            <button data-price=@size.AddPrice data-size=@size.Id onclick="updatePrice(this)" style="width: 100%; padding: 10px; background-color: #fff; border: none; border-radius: 5px; cursor: pointer;">
                                 @size.Name + @size.AddPrice.ToString("#,0 đ", new CultureInfo("vi-VN"))
                             </button>
                         </div>
@@ -48,15 +48,19 @@
         <div class="option_toppings">
             <p class="option_title">Chọn Topping (tuỳ chọn)</p>
             <div class="product_options" style="display: flex; gap: 4px; flex-wrap: wrap;">
-                @foreach (var topping in Model.Toppings)
+                @if(Model.Product.KeyTp == 1)
                 {
-                    <div class="topping-option" style="flex: 0.5; padding: 4px; border: 1px solid #ddd; border-radius: 5px;">
-                        <button data-price="@topping.PriceTp" data-topping="@topping.Id" onclick="updatePriceWithTopping(this)" style="width: 100%; padding: 10px; background-color: #fff; border: none; border-radius: 5px; cursor: pointer;">
-                            @topping.Name <br />
-                            + @topping.PriceTp.ToString("#,0 đ", new CultureInfo("vi-VN"))
-                        </button>
-                    </div>
+                    foreach (var topping in Model.Toppings.Where(t => t.Name != "Không Chọn"))
+                    {
+                        <div class="topping-option" style="flex: 0.5; padding: 4px; border: 1px solid #ddd; border-radius: 5px;">
+                            <button data-price="@topping.PriceTp" data-topping="@topping.Id" onclick="updatePriceWithTopping(this)" style="width: 100%; padding: 10px; background-color: #fff; border: none; border-radius: 5px; cursor: pointer;">
+                                @topping.Name <br />
+                                + @topping.PriceTp.ToString("#,0 đ", new CultureInfo("vi-VN"))
+                            </button>
+                        </div>
+                    }
                 }
+
             </div>
         </div>
         <br />
@@ -76,9 +80,9 @@
 
 <script>
     let updatedPrice = 0;
-    let selectedSize = "Nhỏ";
+    let selectedSizeId = 2;
     let updatedSizePrice = 0;
-    let selectedToppingId = 0;
+    let selectedToppingId = 4;
     let selectedToppingPrice = 0;
     let productId = @Model.Product.Id;
 
@@ -98,14 +102,14 @@
         // Nếu nút chưa được chọn trước đó, thêm lớp active và cập nhật kích thước đã chọn và giá
         if (!isSelected) {
             button.classList.add("active");
-            selectedSize = button.getAttribute('data-size');
+            selectedSizeId = button.getAttribute('data-size');
             updatedSizePrice = parseInt(button.dataset.price, 10);
             button.style.backgroundColor = '#e57905';
 
         } else {
             // Nếu nút đã được chọn trước đó, loại bỏ lớp active và đặt kích thước đã chọn và giá về 0
             button.classList.remove("active");
-            selectedSize = "Nhỏ";
+            selectedSizeId = 2;
             updatedSizePrice = 0;
             button.style.backgroundColor = '#f0f0f0';
         }
@@ -133,7 +137,7 @@
         } else {
             // Nếu nút đã được chọn trước đó, bỏ chọn và cập nhật topping đã chọn thành trống
             button.classList.remove("active");
-            selectedToppingId = 0;
+            selectedToppingId = 4;
             selectedToppingPrice = 0;
             button.style.backgroundColor = '#f0f0f0';
         }
@@ -169,7 +173,7 @@
         $.ajax({
             url: '@Url.Action("AddToCart", "ShoppingCart")',
             type: 'POST',
-            data: { productId: productId, quantity: 1, updatedPrice: updatedSizePrice + selectedToppingPrice, size: selectedSize, toppingId: selectedToppingId },
+            data: { productId: productId, quantity: 1, updatedPrice: updatedSizePrice + selectedToppingPrice, sizeId: selectedSizeId, toppingId: selectedToppingId },
             success: function (data) {
                 if (data && data.success && data.data) {
                     $("#badge-cart").html(data.data);

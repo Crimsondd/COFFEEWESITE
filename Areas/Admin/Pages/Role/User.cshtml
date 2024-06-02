@@ -3,15 +3,15 @@
 @model DACS_DAMH.Areas.Admin.Pages.Role.UserModel
 
 
-<h2>USER LIST</h2>
+<h2>Danh sách người dùng</h2>
 
 <partial name="_StatusMessage" model="@Model.StatusMessage" />
 
 <table class="table table-striped">
     <tr>
-        <th>UserName</th>
-        <th>Roles</th>
-        <th>Actions</th>
+        <th>Tên người dùng</th>
+        <th>Các quyền</th>
+        <th>Tác vụ</th>
     </tr>
     @foreach (var user in @Model.users)
     {
@@ -20,10 +20,10 @@
             <td>@user.listroles</td>
             <td>
                 <form method="POST" class="d-inline">
-                    <button name="Input.ID" value="@user.Id" class="btn btn-primary btn-sm" 
-                        asp-page="./AddUserRole">Update Roles</button>
+                    <button name="Input.ID" value="@user.Id" class="btn btn-success btn-sm"
+                        asp-page="./AddUserRole">Cập nhật quyền</button>
                 </form>
-                <a class="btn btn-primary btn-sm" asp-page="./ForgotPassword" asp-route-id="@user.Id">Reset Password</a>
+                <a class="btn btn-primary btn-sm" asp-page="./ForgotPassword" asp-route-id="@user.Id">Đặt lại mật khẩu</a>
                 @* <form method="POST" class="d-inline">
                     <button name="Input.ID" value="@user.Id" class="btn btn-primary btn-sm"
                             asp-page="./SetPassword">

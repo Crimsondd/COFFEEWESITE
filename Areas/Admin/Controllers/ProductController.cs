@@ -22,10 +22,17 @@ namespace DACS_DAMH.Areas.Admin.Controllers
         }
         // Hiển thị danh sách sản phẩm
         [AllowAnonymous]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string postTitle)
         {
-
-            var products = await _productRepository.GetAllAsync();
+            IEnumerable<Product> products;
+            if (postTitle != null)
+            {
+                products = await _productRepository.SearchAsync(postTitle);
+            }
+            else
+            {
+                products = await _productRepository.GetAllAsync();
+            }
             var categories = await _categoryRepository.GetAllAsync();
             return View(products);
         }
@@ -136,6 +143,8 @@ namespace DACS_DAMH.Areas.Admin.Controllers
                 existingProduct.Description = product.Description;
                 existingProduct.CategoryId = product.CategoryId;
                 existingProduct.ImageUrl = product.ImageUrl;
+                existingProduct.Key = product.Key;
+                existingProduct.KeyTp = product.KeyTp;
                 await _productRepository.UpdateAsync(existingProduct);
                 return RedirectToAction(nameof(Index));
             }
@@ -170,7 +179,13 @@ namespace DACS_DAMH.Areas.Admin.Controllers
             }
             return View(product);
         }
-
+        //public async Task<IActionResult> Search(string term)
+        //{
+        //    var products = await _productRepository.GetAllAsync();
+        //    var productNames = products.Select(x => x.Name).ToList();
+        //    var filteredProduct = productNames.Where(p => p == term);
+        //    return Json(filteredProduct);
+        //}
 
     }
 }

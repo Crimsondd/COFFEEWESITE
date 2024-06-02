@@ -4,22 +4,22 @@
 @model IndexModel
 
 
-<h2>ROLES</h2>
+<h2>Phân quyền</h2>
 
 <partial name="_StatusMessage" model="@Model.StatusMessage" />
 <form method="POST" class="my-1 d-inline">
     <button class="btn btn-secondary" asp-page="./Add"
             asp-page-handler="StartNewRole">
-        New Role
+        Tạo mới
     </button>
 </form>
-<a class="btn btn-secondary" asp-page="./User">Assign permissions to users</a>
+<a class="btn btn-secondary" asp-page="./User">Gán quyền cho người dùng</a>
 
 <table class="table">
     <tr>
         <th>Role ID</th>
-        <th>Name</th>
-        <th>Actions</th>
+        <th>Tên</th>
+        <th>Tác vụ</th>
     </tr>
     @foreach (var role in @Model.roles)
     {
@@ -32,7 +32,7 @@
                 <form method="POST" class="d-inline">
                     <button name="Input.ID" value="@role.Id" class="btn btn-success btn-sm"
                             asp-page="./Add" asp-page-handler="StartUpdate">
-                        Update Role
+                        Cập nhật
                     </button>
                 </form>
                 @* <form method="POST" class="d-inline">
@@ -44,7 +44,7 @@
                 <form method="POST" class="d-inline">
                     <button name="Input.ID" value="@role.Id" class="btn btn-danger btn-sm"
                             asp-page="./Delete">
-                        Delete Role
+                        Xóa
                     </button>
                 </form>
             </td>

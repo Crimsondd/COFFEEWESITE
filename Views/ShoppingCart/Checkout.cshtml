@@ -4,16 +4,30 @@
     Layout = "~/Views/Shared/_Layout2.cshtml";
 }
 
-<h2>Xác nhận đặt hàng!</h2>
+<h2 style="text-align: center;">Xác nhận đặt hàng!</h2>
+<br />
 <form asp-action="Checkout" method="post">
     <div class="form-group">
-        <label asp-for="ShippingAddress">Shipping Address</label>
+        <label asp-for="ShippingAddress">Địa chỉ nhận hàng</label>
         <input asp-for="ShippingAddress" class="form-control" />
+        <span asp-validation-for="ShippingAddress" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Notes">Notes</label>
-        <textarea asp-for="Notes" class="form-control"></textarea>
+        <label asp-for="Numberphone">Số điện thoại người nhận</label>
+        <input asp-for="Numberphone" class="form-control"/>
+        <span asp-validation-for="Numberphone" class="text-danger"></span>
+        
     </div>
+    <div class="form-group">
+        <label asp-for="Notes">Ghi chú</label>
+        <textarea asp-for="Notes" class="form-control"></textarea>
+    </div>  
     </br>
     <button type="submit" class="btn btn-primary">Place Order</button>
 </form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

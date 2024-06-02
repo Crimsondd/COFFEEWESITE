@@ -18,10 +18,19 @@ namespace DACS_DAMH.Areas.Admin.Controllers
         }
         // Hiển thị danh sách sản phẩm
         [AllowAnonymous]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string postTitle)
         {
+            IEnumerable<Discount> discounts;
 
-            var discounts = await _discountRepository.GetAllAsync();
+            if (postTitle != null)
+            {
+                discounts = await _discountRepository.SearchAsync(int.Parse(postTitle));
+            }
+            else
+            {
+                discounts = await _discountRepository.GetAllAsync();
+            }
+
             return View(discounts);
         }
         // Hiển thị form thêm sản phẩm mới
@@ -96,5 +105,13 @@ namespace DACS_DAMH.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Discount)); // Chuyển hướng về trang danh sách sau khi xóa
         }
+
+        //public async Task<IActionResult> Search(int term)
+        //{
+        //    var discounts = await _discountRepository.GetAllAsync();
+        //    var discountIds = discounts.Select(x => x.IdDiscount).ToList();
+        //    var filteredDiscount = discountIds.Where(p => p == term);
+        //    return Json(filteredDiscount);
+        //}
     }
 }

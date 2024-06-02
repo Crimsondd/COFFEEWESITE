@@ -15,6 +15,7 @@ namespace DACS_DAMH.Models
         public List<ProductImage>? Images { get; set; }
         public int CategoryId { get; set; }
         public int Key { get; set; }
+        public int KeyTp { get; set; }
         public Category? Category { get; set; }
     }
 }

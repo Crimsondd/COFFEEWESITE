@@ -13,7 +13,7 @@
         public void AddItem(CartItem item)
         {
             // Kiểm tra xem sản phẩm đã có trong giỏ hàng chưa
-            var existingItem = Items.FirstOrDefault(i => i.ProductId == item.ProductId && i.Size == item.Size && i.ToppingId == item.ToppingId);
+            var existingItem = Items.FirstOrDefault(i => i.ProductId == item.ProductId && i.SizeId == item.SizeId && i.ToppingId == item.ToppingId);
 
             if (existingItem != null)//nếu sp đã có trong giỏ hàng
             {
@@ -52,15 +52,15 @@
             }
         }
 
-        public void Addsize(int productId, string sizeName)
-        {
-            var item = Items.FirstOrDefault(i => i.ProductId == productId);
-            if (item != null)
-            {
+        //public void Addsize(int productId, int sizeName)
+        //{
+        //    var item = Items.FirstOrDefault(i => i.ProductId == productId);
+        //    if (item != null)
+        //    {
 
-                item.Size = sizeName;
+        //        item.Size = sizeName;
 
-            }
-        }
+        //    }
+        //}
     }
 }

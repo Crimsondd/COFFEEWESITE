@@ -15,9 +15,23 @@ namespace DACS_DAMH.Repository
         public async Task<IEnumerable<Order>> GetAllOrdersAsync()
         {
             return await _context.Orders
-                .Include(o => o.ApplicationUser) // Đảm bảo rằng thông tin về người dùng cũng được load
-                .Include(o => o.OrderDetails) // Load thông tin chi tiết của đơn hàng
-                .ToListAsync();
+                           .Include(o => o.OrderDetails)
+                           .ThenInclude(od => od.Product)
+                           .OrderByDescending(o => o.OrderDate)
+                           .ToListAsync();
+
+        }
+
+        public async Task<IEnumerable<Order>> GetOrderByIdUserAsync(string id)
+        {
+
+            return await _context.Orders
+                            .Include(o => o.OrderDetails)
+                            .ThenInclude(od => od.Product)
+                            .Where(o => o.UserId == id)
+                            .OrderByDescending(o => o.OrderDate)
+                            .ToListAsync();
+
         }
 
         //Phương thức xóa Order
@@ -31,11 +45,47 @@ namespace DACS_DAMH.Repository
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Order>> SearchAsync(int searchTerm)
+        public async Task<IEnumerable<Order>> SearchAsync(string searchTerm)
         {
-            var orders = await _context.Orders
-                .Where(p => p.Id == searchTerm)
+
+            //    var orders = await _context.Orders
+            //        .Include(o => o.OrderDetails)
+            //        .ThenInclude(od => od.Product)
+            //        .Where(p => p.Id == int.Parse(searchTerm) || p.OrderDate.ToShortDateString().Contains(searchTerm))
+            //        .OrderByDescending(o => o.OrderDate)
+            //        .ToListAsync();
+
+            //    return orders;
+            // Attempt to parse the searchTerm as an integer
+            int orderId;
+            DateTime searchDate;
+            var ordersQuery = _context.Orders
+                .Include(o => o.OrderDetails)
+                .ThenInclude(od => od.Product)
+                .AsQueryable();
+
+            // Check if searchTerm is an integer
+            if (int.TryParse(searchTerm, out orderId))
+            {
+                ordersQuery = ordersQuery.Where(p => p.Id == orderId);
+            }
+            // Check if searchTerm is a valid date
+            else if (DateTime.TryParse(searchTerm, out searchDate))
+            {
+                // Compare dates
+                ordersQuery = ordersQuery.Where(p => p.OrderDate.Date == searchDate.Date);
+            }
+            else
+            {
+                // Handle invalid searchTerm format, return empty or log the issue as needed
+                return Enumerable.Empty<Order>();
+            }
+
+            // Execute the query and return the result
+            var orders = await ordersQuery
+                .OrderByDescending(o => o.OrderDate)
                 .ToListAsync();
+
             return orders;
         }
     }

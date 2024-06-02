@@ -9,7 +9,9 @@
         public decimal Price { get; set; }
         public Order Order { get; set; }
         public Product Product { get; set; }
-        public Size Size { get; set; }
-        public Topping Topping { get; set; }
+        public int SizeId { get; set; }
+        public int ToppingId { get; set; }
+        public Size? size { get; set; }
+        public Topping? topping { get; set; }
     }
 }

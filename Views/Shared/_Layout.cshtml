@@ -127,28 +127,6 @@
     </section>
     </br>
 
-    <section class=" index">
-        <div class="cloudtea-block left">
-            <div class="container">
-                <div class="row flex-box flex-w align-c justify-s">
-                    <div class="info-block">
-                        <div class="img-title"><img src="https://file.hstatic.net/1000075078/file/tagline__1__1_378410beecb347f38cf8425ef7459690.png" alt="123123"></div>
-                        <div class="cloudtea-desc">
-                            Được trồng trọt và chăm chút kỹ lưỡng, nuôi dưỡng từ thổ nhưỡng phì nhiêu, nguồn nước mát lành, bao bọc bởi mây và sương cùng nền nhiệt độ mát mẻ quanh năm, những búp trà ở Tây Bắc mập mạp và xanh mướt, hội tụ đầy đủ dưỡng chất, sinh khí, và tinh hoa đất trời.
-
-                            Chính khí hậu đặc trưng cùng phương pháp canh tác của đồng bào dân tộc nơi đây đã tạo ra Trà Xanh vị mộc dễ uống, dễ yêu, không thể trộn lẫn với bất kỳ vùng miền nào khác.
-                        </div>
-
-                    </div>
-                    <div class="img-block">
-                        <img src="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
     </br>
 
     <footer id="footer" style="padding-top:25px">
@@ -240,7 +218,7 @@
                 $.ajax({
                     url: '@Url.Action("AddToCart", "ShoppingCart")',
                     type: 'POST',
-                    data: { productId: productId, quantity: 1, updatedPrice: 0, size: "Nhỏ", toppingId: 0 },
+                    data: { productId: productId, quantity: 1, updatedPrice: 0, sizeId: 2, toppingId: 4 },
                     success: function (data) {
                         if (data && data.success && data.data) {
                             $("#badge-cart").html(data.data);

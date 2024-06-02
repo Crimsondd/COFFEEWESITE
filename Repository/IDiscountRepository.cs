@@ -9,5 +9,6 @@ namespace DACS_DAMH.Repository
         Task AddAsync(Discount product);
         Task UpdateAsync(Discount product);
         Task DeleteAsync(Discount discount);
+        Task<IEnumerable<Discount>> SearchAsync(int searchTerm);
     }
 }

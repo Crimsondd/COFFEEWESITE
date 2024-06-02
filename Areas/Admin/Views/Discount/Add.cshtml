@@ -3,36 +3,35 @@
     ViewData["Title"] = "Add";
 }
 
-<h1>Add</h1>
 
-<h4>Discount</h4>
+<h4>Thêm mã khuyến mãi</h4>
 <hr />
 <div class="row">
     <div>
         <form asp-action="Add">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Code" class="control-label"></label>
+                <label asp-for="Code" class="control-label">Mã</label>
                 <input asp-for="Code" class="form-control" />
                 <span asp-validation-for="Code" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Percentage" class="control-label"></label>
+                <label asp-for="Percentage" class="control-label">Giảm giá ( %)</label>
                 <input asp-for="Percentage" class="form-control" />
                 <span asp-validation-for="Percentage" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Expdate" class="control-label"></label>
+                <label asp-for="Expdate" class="control-label">Thời hạn</label>
                 <input asp-for="Expdate" class="form-control" />
                 <span asp-validation-for="Expdate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Remain" class="control-label"></label>
+                <label asp-for="Remain" class="control-label">Số lượng</label>
                 <input asp-for="Remain" class="form-control" />
                 <span asp-validation-for="Remain" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Add" class="btn btn-primary" />
+                <input type="submit" value="Thêm mới" class="btn btn-primary" />
             </div>
         </form>
     </div>

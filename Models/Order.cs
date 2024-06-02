@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DACS_DAMH.Models
@@ -10,8 +11,12 @@ namespace DACS_DAMH.Models
         public DateTime OrderDate { get; set; }
 
         public decimal TotalPrice { get; set; }
+        [Required(ErrorMessage = "Địa chỉ là bắt buộc.")]
         public string ShippingAddress { get; set; }
-        public int Numberphone { get; set; }
+        [Required(ErrorMessage = "Số điện thoại là bắt buộc.")]
+        [RegularExpression(@"^\d{1,11}$", ErrorMessage = "Số điện thoại chỉ được chứa số và không quá 11 chữ số.")]
+        [StringLength(11, ErrorMessage = "Số điện thoại không được quá 10 chữ số.")]
+        public string Numberphone { get; set; }
         public string? Notes { get; set; }
         [ForeignKey("UserId")]
         [ValidateNever]
