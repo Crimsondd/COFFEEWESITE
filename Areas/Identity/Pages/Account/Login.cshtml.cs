@@ -15,6 +15,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using DACS_DAMH.Extentions;
 
 namespace DACS_DAMH.Areas.Identity.Pages.Account
 {
@@ -91,7 +92,9 @@ namespace DACS_DAMH.Areas.Identity.Pages.Account
             {
                 ModelState.AddModelError(string.Empty, ErrorMessage);
             }
-
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+            cart.ClearItems();
+            HttpContext.Session.SetObjectAsJson("Cart", cart);
             returnUrl ??= Url.Content("~/");
 
             // Clear the existing external cookie to ensure a clean login process
@@ -110,6 +113,7 @@ namespace DACS_DAMH.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid)
             {
+                
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
@@ -132,8 +136,7 @@ namespace DACS_DAMH.Areas.Identity.Pages.Account
                     ModelState.AddModelError(string.Empty, "Invalid login attempt.");
                     return Page();
                 }
-            }
-
+            }            
             // If we got this far, something failed, redisplay form
             return Page();
         }

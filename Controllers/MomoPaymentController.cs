@@ -23,7 +23,7 @@ namespace DACS_DAMH.Controllers
                 string accessKey = "iPXneGmrJH0G8FOP";
                 string secretKey = "sFcbSGRSJjwGxwhhcEktCHWYUuTuPNDB";
                 string orderInfo = "Thanh toán online";
-                string returnUrl = "http://localhost:54444/ShoppingCart/Checkout";
+                string returnUrl = "http://localhost:54444/MomoPayment/ReturnUrl";
                 string notifyUrl = "https://4c8d-2001-ee0-5045-50-58c1-b2ec-3123-740d.ap.ngrok.io/Home/SavePayment";
                 string extraData = "";
 
@@ -72,13 +72,18 @@ namespace DACS_DAMH.Controllers
             }
         }
 
-        //private string CalculateHMACSHA256Hash(string input, string key)
-        //{
-        //    using (HMACSHA256 hmac = new HMACSHA256(Encoding.UTF8.GetBytes(key)))
-        //    {
-        //        byte[] hashValue = hmac.ComputeHash(Encoding.UTF8.GetBytes(input));
-        //        return Convert.ToBase64String(hashValue);
-        //    }
-        //}
+        public async Task<IActionResult> ReturnUrl()
+        {
+            string param = Request.QueryString.ToString().Substring(0, Request.QueryString.ToString().IndexOf("signature") - 1);
+            param = System.Net.WebUtility.UrlDecode(param);
+            if (param.Contains("message=Success"))
+            {
+                return RedirectToAction("Checkout", "ShoppingCart");
+            }
+            else
+            {
+                return RedirectToAction("Index", "ShoppingCart");
+            }
+        }
     }
 }

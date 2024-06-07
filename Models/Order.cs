@@ -15,7 +15,7 @@ namespace DACS_DAMH.Models
         public string ShippingAddress { get; set; }
         [Required(ErrorMessage = "Số điện thoại là bắt buộc.")]
         [RegularExpression(@"^\d{1,11}$", ErrorMessage = "Số điện thoại chỉ được chứa số và không quá 11 chữ số.")]
-        [StringLength(11, ErrorMessage = "Số điện thoại không được quá 10 chữ số.")]
+        [StringLength(11, ErrorMessage = "Số điện thoại không được quá 11 chữ số.")]
         public string Numberphone { get; set; }
         public string? Notes { get; set; }
         [ForeignKey("UserId")]

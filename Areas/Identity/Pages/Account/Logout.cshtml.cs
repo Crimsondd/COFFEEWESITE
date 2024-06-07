@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using DACS_DAMH.Extentions;
 
 namespace DACS_DAMH.Areas.Identity.Pages.Account
 {
@@ -28,12 +29,17 @@ namespace DACS_DAMH.Areas.Identity.Pages.Account
         {
             await _signInManager.SignOutAsync();
             _logger.LogInformation("User logged out.");
+            
             if (returnUrl != null)
             {
+                
                 return LocalRedirect(returnUrl);
             }
             else
             {
+                var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+                cart.ClearItems();
+                HttpContext.Session.SetObjectAsJson("Cart", cart);
                 // This needs to be a redirect so that the browser performs a new
                 // request and the identity for the user gets updated.
                 return RedirectToPage();

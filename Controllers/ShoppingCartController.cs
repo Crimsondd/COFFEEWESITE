@@ -187,8 +187,6 @@ namespace DACS_DAMH.Controllers
                 ToppingId = i.ToppingId,
                 SizeId = i.SizeId
 
-
-
             }).ToList();
 
             _context.Orders.Add(order);

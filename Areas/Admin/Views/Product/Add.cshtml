@@ -45,10 +45,14 @@
         <input type="file" asp-for="ImageUrl" class="form-control" id="imageInput" />
         <span asp-validation-for="ImageUrl" class="text-danger"></span>
     </div>
+    </div>
+    <div class="col-8">
+        <img src="" alt="Product Image" style="max-width:200px;" id="previewImage" />
+    </div>
     <button type="submit" class="btn btn-primary">Thêm mới</button>
 </form>
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Quay lại danh sách</a>
 </div>
 
 @section Scripts {
@@ -56,3 +60,20 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+
+
+<script>
+    document.querySelectorAll('input[type="file"]').forEach(input => {
+        input.addEventListener('change', function (event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const img = document.getElementById("previewImage")
+                    img.src = e.target.result
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    });
+</script>

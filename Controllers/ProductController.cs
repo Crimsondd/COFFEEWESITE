@@ -23,13 +23,13 @@ namespace DACS_DAMH.Controllers
         {
             var categories = await _categoryRepository.GetAllAsync();
             var products = await _productRepository.GetAllAsync();
-            var cateProds = categories.Where(cp=>cp.Id == id).FirstOrDefault();
-            
-            var productNames = products.Where(m=>m.Id== cateProds.Id).ToList();
+            var cateProds = categories.Where(cp => cp.Id == id).FirstOrDefault();
+
+            var productNames = products.Where(m => m.Id == cateProds.Id).ToList();
 
             return View();
         }
-       
+
         // Hiển thị thông tin chi tiết sản phẩm
         public async Task<IActionResult> Display(int id)
         {
@@ -40,12 +40,17 @@ namespace DACS_DAMH.Controllers
             }
             return View(product);
         }
-        
+
         public async Task<IActionResult> Details(int id)
         {
+            ;
             var product = await _productRepository.GetByIdAsync(id);
             var size = await _context.Sizes.ToListAsync();
             var topping = await _context.Toppings.ToListAsync();
+
+            var relatedProducts = await _context.Products
+                            .Where(p => p.CategoryId == product.CategoryId && p.Id != product.Id) // Example criteria: same category
+                            .ToListAsync();
             if (product == null)
             {
                 return NotFound();
@@ -54,7 +59,8 @@ namespace DACS_DAMH.Controllers
             {
                 Product = product,
                 Sizes = size,
-                Toppings = topping
+                Toppings = topping,
+                RelatedProducts = relatedProducts
             };
             return View(viewModel);
         }
